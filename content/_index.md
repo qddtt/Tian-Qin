@@ -25,6 +25,9 @@ sections:
       biography:
         # Customize the style of your biography text
         style: 'text-align: justify; font-size: 0.8em;'
+    block: education
+    content:
+      username: admin
   - block: experience
     content:
       username: admin
@@ -32,7 +35,7 @@ sections:
       # Hugo date format
       date_format: 'January 2006'
       # Education or Experience section first?
-      is_education_first: false
+      #is_education_first: false
   - block: skills
     content:
       title: Skills & Hobbies
