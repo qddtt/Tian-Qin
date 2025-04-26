@@ -104,10 +104,11 @@ skills:
         description: ''
         percent: 80
         icon: devicon/python
-      - name: RStudio
+      - name: ROS C++
         description: ''
-        percent: 100
-        icon: devicon/rstudio
+        percent: 80
+        icon: devicon/cplusplus-line
+        #icon: devicon/rstudio
       - name: PyTorch
         description: ''
         percent: 40
@@ -122,12 +123,12 @@ skills:
         icon: person-simple-walk
       - name: Cats
         description: ''
-        percent: 100
-        icon: cat
-      - name: Photography
-        description: ''
         percent: 80
-        icon: camera
+        icon: cat
+      - name: Game
+        description: ''
+        percent: 100
+        icon: GameControllerIcon
 
 languages:
   - name: Chinese
