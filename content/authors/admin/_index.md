@@ -54,19 +54,18 @@ education:
     date_start: 2023-09-01
     date_end: 
     summary: |
-      -GPA: 3.4/4.0
-      
-      -Lab of Intelligent Energy System and Autonomous Mining(https://www.researchgate.net/lab/-Lab-of-Intelligent-Energy-System-and-Autonomous-Mining-Kehu-Yang)
-      -Supervisor: Prof. Kehu-Yang
-      -State Stipend for TWO Years
+      GPA: 3.4/4.0
+      [Lab of Intelligent Energy System and Autonomous Mining](https://www.researchgate.net/lab/-Lab-of-Intelligent-Energy-System-and-Autonomous-Mining-Kehu-Yang)
+      Supervisor: Prof. Kehu-Yang
+      State Stipend for TWO Years
 
   - area: B.Eng. in Electronic and Information Engineering
     institution: Sichuan University(985)
     date_start: 2015-09-01
     date_end: 2019-06-01
     summary: |
-      -GPA: 2.93/4.0
-      -The Second-class Academic Scholarship of Sichuan University
+      GPA: 2.93/4.0
+      The Second-class Academic Scholarship of Sichuan University
     
 work:
   - position: Director of Cloud Infrastructure
