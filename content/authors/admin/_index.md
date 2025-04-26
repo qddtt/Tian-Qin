@@ -176,3 +176,4 @@ awards:
 ---
 
 <!-- I am currently Director of Cloud Infrastructure at GenCoin where I am leading teams on edge computing, deep sea data center architecture, and hivemind optimization. -->
+As a graduate student majoring in Control Science and Engineering, I focus on Model Predictive Control. I am not only passionate about theoretical research but also enjoy getting involved in practical projects and constantly pursue new knowledge.
