@@ -103,7 +103,7 @@ skills:
       - name: ROS C++
         description: ''
         percent: 80
-        icon: code
+        icon: robot
         #icon: devicon/rstudio
       - name: PyTorch
         description: ''
