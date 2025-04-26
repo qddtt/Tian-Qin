@@ -75,9 +75,9 @@ Publications:
     date_end: 2023-09-01
     summary: |2-
       Responsibilities include:
-      - Designed and implemented the control system of the unmanned mining truck.
-      - Designed the PLC controller and developed the control redundancy system
-      - Ensured the safe operation of 165 unmanned mining trucks, solving technical issues like communication disconnections and malfunctions.
+      - Dual-Loop Fuzzy-PID Acceleration Tracking Controller for Autonomous Mining Trucks under Variable Payload Conditions
+      - Double-Layer Following Controller for Autonomous Vehicles
+      - Lateral Trajectory Tracking of Autonomous Mining Trucks Using MPC with Adaptive Load Compensation
 work:
   - position: Hardware Engineer
     company_name: CASIC
