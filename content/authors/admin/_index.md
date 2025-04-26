@@ -147,24 +147,21 @@ awards:
     #icon: coursera
     summary: |
       Developed an adaptive cruise controller within the Virtual Test Drive (VTD) simulation platform, optimizing vehicle trajectory and maintaining safe following distances using a hybrid control approach combining Dynamic Window Approach (DWA) and Fuzzy-PID control. Achieved outstanding performance with lateral acceleration RMS below 0.1 m/s² and longitudinal acceleration RMS below 0.06 m/s².
-  - title: Blockchain Fundamentals
+  - title: Autopilot Challenge of the Vehicle-Road-Cloud Integration (CICV) 2024
     #url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
+    date: '2024-06-01'
+    awarder: China Association of Automobile Manufacturers
     #icon: edx
     summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
+      Deployed system integration of an LQR controller onto an autonomous vehicle platform, enabling real-world execution of tasks such as parking, obstacle avoidance, lane-changing, and U-turns. Achieved 7th place out of 118 teams in a competitive evaluation.
+  - title: National Post-Graduate Mathematical Contest in Modeling
     #url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
+    #certificate_url: https://www.datacamp.com
+    date: '2024-09-21'
+    awarder: China Academic Degrees and Graduate Education Development Center
     #icon: datacamp
     summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+      Constructed a multi-physics field coupling model for magnetic components and optimized its parameters using particle swarm optimization, resulting in a 5% improvement in model accuracy.
 ---
 
 I am currently Director of Cloud Infrastructure at GenCoin where I am leading teams on edge computing, deep sea data center architecture, and hivemind optimization.
