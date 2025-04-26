@@ -17,12 +17,12 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Director of Cloud Infrastructure
+role: Master's student
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: GenCoin
-    url: https://www.example.com/
+  - name: China University of Mining and Technology, Beijing
+    url: https://www.cumtb.edu.cn/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -130,12 +130,12 @@ skills:
         icon: camera
 
 languages:
-  - name: English
-    percent: 100
   - name: Chinese
+    percent: 100
+  - name: English
     percent: 75
-  - name: Portuguese
-    percent: 25
+  # - name: Portuguese
+  #   percent: 25
 
 # Awards.
 #   Add/remove as many awards below as you like.
