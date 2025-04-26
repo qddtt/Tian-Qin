@@ -147,7 +147,7 @@ awards:
     #icon: coursera
     summary: |
       Developed an adaptive cruise controller within the Virtual Test Drive (VTD) simulation platform, optimizing vehicle trajectory and maintaining safe following distances using a hybrid control approach combining Dynamic Window Approach (DWA) and Fuzzy-PID control. Achieved outstanding performance with lateral acceleration RMS below 0.1 m/s² and longitudinal acceleration RMS below 0.06 m/s².
-  - title: Autopilot Challenge of the Vehicle-Road-Cloud Integration (CICV) 2024
+  - title: Autopilot Challenge of the Vehicle-Road-Cloud Integration  2024
     #url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
     date: '2024-06-01'
     awarder: China Association of Automobile Manufacturers
