@@ -34,12 +34,11 @@ sections:
       date_format: 'January 2006'
       # Education or Experience section first?
       is_education_first: true
-      
-  - block: publications
-  # 其它区块……
-    content:
-      title: publications
-      username: admin
+
+  # - block: publications
+  #   content:
+  #     title: publications
+  #     username: admin
                       
   - block: skills
     content:
