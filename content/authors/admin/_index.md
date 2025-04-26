@@ -40,32 +40,32 @@ profiles:
     url: https://www.instagram.com/
 
 education:
-  - area: PhD Artificial Intelligence
+  # - area: PhD Artificial Intelligence
+  #   institution: China University of Mining and Technology Beijing(211)
+  #   date_start: 2023-09-01
+  #   date_end: Present
+  #   summary: |
+  #     Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+  #   button:
+  #     text: 'Read Thesis'
+  #     url: 'https://example.com'
+  - area: M.Sc. in Control Science and Engineering
     institution: China University of Mining and Technology Beijing(211)
     date_start: 2023-09-01
     date_end: Present
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
+      GPA: 3.4/4.0
 
       Courses included:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: B.Eng. in Electronic and Information Engineering
+    institution: Sichuan University(985)
+    date_start: 2015-09-01
+    date_end: 2019-06-01
     summary: |
-      GPA: 3.4/4.0
+      GPA: 2.93/4.0
       
       Courses included:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
