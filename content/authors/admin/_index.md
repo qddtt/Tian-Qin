@@ -66,7 +66,18 @@ education:
     summary: |
       GPA: 2.93/4.0<br>
       The Second-class Academic Scholarship of Sichuan University<br>
-    
+Publications:
+  - position: Hardware Engineer
+    company_name: CASIC
+    company_url: ''
+    company_logo: ''
+    date_start: 2019-10-01
+    date_end: 2023-09-01
+    summary: |2-
+      Responsibilities include:
+      - Designed and implemented the control system of the unmanned mining truck.
+      - Designed the PLC controller and developed the control redundancy system
+      - Ensured the safe operation of 165 unmanned mining trucks, solving technical issues like communication disconnections and malfunctions.
 work:
   - position: Hardware Engineer
     company_name: CASIC
@@ -164,4 +175,4 @@ awards:
       Constructed a multi-physics field coupling model for magnetic components and optimized its parameters using particle swarm optimization, resulting in a 5% improvement in model accuracy.
 ---
 
-I am currently Director of Cloud Infrastructure at GenCoin where I am leading teams on edge computing, deep sea data center architecture, and hivemind optimization.
+<!-- I am currently Director of Cloud Infrastructure at GenCoin where I am leading teams on edge computing, deep sea data center architecture, and hivemind optimization. -->
