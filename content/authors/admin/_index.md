@@ -103,7 +103,7 @@ skills:
       - name: ROS C++
         description: ''
         percent: 80
-        icon: robot
+        icon: code
         #icon: devicon/rstudio
       - name: PyTorch
         description: ''
@@ -124,7 +124,7 @@ skills:
       - name: Game
         description: ''
         percent: 100
-        icon: dice
+        icon: chess-board
 
 languages:
   - name: Chinese
@@ -143,7 +143,7 @@ awards:
     #url: https://www.coursera.org/learn/neural-networks-deep-learning
     date: '2023-11-25'
     awarder: Chinese Association for Artificial Intelligence (CAAI)
-    icon: caai
+    #icon: caai
     #icon: coursera
     summary: |
       Developed an adaptive cruise controller within the Virtual Test Drive (VTD) simulation platform, optimizing vehicle trajectory and maintaining safe following distances using a hybrid control approach combining Dynamic Window Approach (DWA) and Fuzzy-PID control. Achieved outstanding performance with lateral acceleration RMS below 0.1 m/s² and longitudinal acceleration RMS below 0.06 m/s².
@@ -151,7 +151,7 @@ awards:
     #url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
     date: '2023-07-01'
     awarder: edX
-    icon: edx
+    #icon: edx
     summary: |
       Learned:
       - Synthesize your own blockchain solutions
@@ -162,7 +162,7 @@ awards:
     certificate_url: https://www.datacamp.com
     date: '2023-01-21'
     awarder: datacamp
-    icon: datacamp
+    #icon: datacamp
     summary: |
       Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
 ---
