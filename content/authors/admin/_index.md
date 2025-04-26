@@ -52,7 +52,7 @@ education:
   - area: M.Sc. in Control Science and Engineering
     institution: China University of Mining and Technology Beijing(211)
     date_start: 2023-09-01
-    date_end: Present
+    date_end: 
     summary: |
       GPA: 3.4/4.0
 
