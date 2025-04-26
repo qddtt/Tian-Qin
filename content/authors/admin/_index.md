@@ -107,7 +107,7 @@ skills:
       - name: ROS C++
         description: ''
         percent: 80
-        icon: devicon/cplusplus-line
+        icon: devicon/robotics
         #icon: devicon/rstudio
       - name: PyTorch
         description: ''
@@ -128,7 +128,7 @@ skills:
       - name: Game
         description: ''
         percent: 100
-        icon: GameControllerIcon
+        icon: Gamepad
 
 languages:
   - name: Chinese
