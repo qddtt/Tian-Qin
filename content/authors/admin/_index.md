@@ -50,7 +50,7 @@ education:
   #     text: 'Read Thesis'
   #     url: 'https://example.com'
   - area: M.Sc. in Control Science and Engineering
-    institution: China University of Mining and Technology Beijing(211)
+    institution: China University of Mining and Technology Beijing (211)
     date_start: 2023-09-01
     date_end: 
     summary: |
@@ -60,7 +60,7 @@ education:
       State Stipend for TWO Years<br>
 
   - area: B.Eng. in Electronic and Information Engineering
-    institution: Sichuan University(985)
+    institution: Sichuan University (985)
     date_start: 2015-09-01
     date_end: 2019-06-01
     summary: |
@@ -68,28 +68,28 @@ education:
       The Second-class Academic Scholarship of Sichuan University<br>
     
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
+  - position: Hardware Engineer
+    company_name: CASIC
     company_url: ''
     company_logo: ''
-    date_start: 2021-01-01
-    date_end: ''
+    date_start: 2019-10-01
+    date_end: 2023-09-01
     summary: |2-
       Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
-    company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Designed and implemented the control system of the unmanned mining truck.
+      - Designed the PLC controller and developed the control redundancy system
+      - Ensured the safe operation of 165 unmanned mining trucks, solving technical issues like communication disconnections and malfunctions.
+  # - position: Backend Software Engineer
+  #   company_name: X
+  #   company_url: ''
+  #   company_logo: ''
+  #   date_start: 2016-01-01
+  #   date_end: 2020-12-31
+  #   summary: |
+  #     Responsibilities include:
+  #     - Migrated infrastructure to a new data center
+  #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -103,7 +103,7 @@ skills:
       - name: ROS C++
         description: ''
         percent: 80
-        icon: devicon/robotics
+        icon: robot
         #icon: devicon/rstudio
       - name: PyTorch
         description: ''
@@ -124,7 +124,7 @@ skills:
       - name: Game
         description: ''
         percent: 100
-        icon: Gamepad
+        icon: gamepad
 
 languages:
   - name: Chinese
