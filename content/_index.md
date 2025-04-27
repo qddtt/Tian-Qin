@@ -41,7 +41,7 @@ sections:
   #     title: Publications
   #     username: admin
   - block: markdown
-    id: section-2
+    # id: section-2
     content:
       title: Publications
       # subtitle: A subtitle
