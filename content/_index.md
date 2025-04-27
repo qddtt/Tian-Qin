@@ -40,31 +40,31 @@ sections:
   - block: markdown
     id: section-2
     content:
-    title: Publications
-    text: |
-      <span style='font-size: 14px;'>
+      title: Publications
+      text: |
+        <span style='font-size: 14px;'>
 
-      <b>Journal:</b><br>
-      <b>Qin T</b>, Zhu Desheng, Wang Chunhui, et al. 
-      <i>Dual-Loop Fuzzy-PID Acceleration Tracking Controller for Autonomous Mining Trucks under Variable Payload Conditions</i> [J]. Coal Engineering. [Decision in Process]<br>
-      -- Target: Addressed dynamic payload variations with a dual-loop fuzzy PID with self-adaptive compensation.<br>
-      -- Outcome: Maximum speed error 0.49 km/h (1.6%), acceleration error 0.103 m/s².<br>
-      -- Comparison: Compared to MPC, peak-to-peak speed error reduced by 8.77%, acceleration error reduced by 13.30%.<br><br>
+        <b>Journal:</b><br>
+        <b>Qin T</b>, Zhu Desheng, Wang Chunhui, et al. 
+        <i>Dual-Loop Fuzzy-PID Acceleration Tracking Controller for Autonomous Mining Trucks under Variable Payload Conditions</i> [J]. Coal Engineering. [Decision in Process]<br>
+        -- Target: Addressed dynamic payload variations with a dual-loop fuzzy PID with self-adaptive compensation.<br>
+        -- Outcome: Maximum speed error 0.49 km/h (1.6%), acceleration error 0.103 m/s².<br>
+        -- Comparison: Compared to MPC, peak-to-peak speed error reduced by 8.77%, acceleration error reduced by 13.30%.<br><br>
 
-      <b>Conference:</b><br>
-      <b>Qin T</b>, Qiu L, Chen J, et al. 
-      <i>Double-Layer Following Controller for Autonomous Vehicles</i>. 2024 36th Chinese Control and Decision Conference (CCDC), IEEE 2024:908–913.<br>
-      -- Proposed a DWA and fuzzy-adaptive PID dual-layer controller. Reduced lateral acceleration RMS by 19.5% compared to PID-Stanley.<br><br>
+        <b>Conference:</b><br>
+        <b>Qin T</b>, Qiu L, Chen J, et al. 
+        <i>Double-Layer Following Controller for Autonomous Vehicles</i>. 2024 36th Chinese Control and Decision Conference (CCDC), IEEE 2024:908–913.<br>
+        -- Proposed a DWA and fuzzy-adaptive PID dual-layer controller. Reduced lateral acceleration RMS by 19.5% compared to PID-Stanley.<br><br>
 
-      Wang C, Zhu D, <b>Qin T</b>, et al. 
-      <i>Lateral Trajectory Tracking of Autonomous Mining Trucks Using MPC with Adaptive Load Compensation</i>. Chinese Control and Conference (CCC), IEEE 2025.<br>
-      -- Achieved 33.33% reduction in mean lateral error compared to LQR, improving robustness.<br><br>
+        Wang C, Zhu D, <b>Qin T</b>, et al. 
+        <i>Lateral Trajectory Tracking of Autonomous Mining Trucks Using MPC with Adaptive Load Compensation</i>. Chinese Control and Conference (CCC), IEEE 2025.<br>
+        -- Achieved 33.33% reduction in mean lateral error compared to LQR, improving robustness.<br><br>
 
-      Yang P, Zhu D, <b>Qin T</b>, et al. 
-      <i>Adaptive Heading Tracking Algorithm Based on Vehicle Dynamics Model</i>. Chinese Control and Conference (CCC), IEEE 2025.<br>
-      -- Demonstrated 47% reduction in lateral error compared to pure pursuit, enhancing navigation precision.<br>
+        Yang P, Zhu D, <b>Qin T</b>, et al. 
+        <i>Adaptive Heading Tracking Algorithm Based on Vehicle Dynamics Model</i>. Chinese Control and Conference (CCC), IEEE 2025.<br>
+        -- Demonstrated 47% reduction in lateral error compared to pure pursuit, enhancing navigation precision.<br>
 
-      </span>
+        </span>
 
 
   - block: skills
