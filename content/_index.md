@@ -44,10 +44,10 @@ sections:
     id: section-2
     content:
       title: Publications
-      # subtitle: A subtitle
-      text: In submit
-        Qin Tian, Zhu Desheng, Wang Chunhui, et al. Dual-Loop Fuzzy-PID Acceleration Tracking Controller for Autonomous Mining Trucks under Variable Payload Conditions[J]. Coal Engineering. [Decision in Process]
-       Targeting large-scale dynamic payload variations in mining trucks, developed a dual-loop fuzzy PID control architecture with parameter self-adaptive compensation.
+      subtitle: In submit
+      text: 
+        <b>Qin Tian</b>, Zhu Desheng, Wang Chunhui, et al. <i>Dual-Loop Fuzzy-PID Acceleration Tracking Controller for Autonomous Mining Trucks under Variable Payload Conditions</i>[J]. Coal Engineering. [Decision in Process]<br>
+        <span style="font-size: 24px;">Targeting large-scale dynamic payload variations in mining trucks, developed a dual-loop fuzzy PID control architecture with parameter self-adaptive compensation.</span>
         # Outcome: Achieved a maximum speed error of 0.49 km/h (1.6% of the running speed) and maximum acceleration error of 0.103 m/s².
 # Comparison: Compared with MPC, the peak-to-peak speed error reduced by 8.77%, and the acceleration error reduced by 13.30%.
 # Conference
