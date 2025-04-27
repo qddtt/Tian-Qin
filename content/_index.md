@@ -44,14 +44,14 @@ sections:
       text: |
         <span style='font-size: 14px;'>
 
-        <b>Journal:</b><br>
+        <span style='font-size: 18px;'><b>Journal:</b><br></span>
         <b>Qin T</b>, Zhu Desheng, Wang Chunhui, et al. 
         <i>Dual-Loop Fuzzy-PID Acceleration Tracking Controller for Autonomous Mining Trucks under Variable Payload Conditions</i> [J]. Coal Engineering. [Decision in Process]<br>
         -- Target: Addressed dynamic payload variations with a dual-loop fuzzy PID with self-adaptive compensation.<br>
         -- Outcome: Maximum speed error 0.49 km/h (1.6%), acceleration error 0.103 m/s².<br>
         -- Comparison: Compared to MPC, peak-to-peak speed error reduced by 8.77%, acceleration error reduced by 13.30%.<br><br>
 
-        <b>Conference:</b><br>
+        <span style='font-size: 18px;'><b>Conference:</b><br></span>
         <b>Qin T</b>, Qiu L, Chen J, et al. 
         <i>Double-Layer Following Controller for Autonomous Vehicles</i>. 2024 36th Chinese Control and Decision Conference (CCDC), IEEE 2024:908–913.<br>
         -- Proposed a DWA and fuzzy-adaptive PID dual-layer controller. Reduced lateral acceleration RMS by 19.5% compared to PID-Stanley.<br><br>
