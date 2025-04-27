@@ -66,8 +66,9 @@ education:
     summary: |
       GPA: 2.93/4.0<br>
       The Second-class Academic Scholarship of Sichuan University<br>
-      
+
 Publications:
+  - id: section-2
   - position: Hardware Engineer
     company_name: CASIC
     company_url: ''
