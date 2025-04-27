@@ -45,7 +45,7 @@ sections:
     content:
       title: Publications
       # subtitle: A subtitle
-      text: Add your Section 2 content here...
+      text: Add y
 
   - block: skills
     content:
