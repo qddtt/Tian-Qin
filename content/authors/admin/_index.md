@@ -66,18 +66,19 @@ education:
     summary: |
       GPA: 2.93/4.0<br>
       The Second-class Academic Scholarship of Sichuan University<br>
-# Publications:
-#   - position: Hardware Engineer
-#     company_name: CASIC
-#     company_url: ''
-#     company_logo: ''
-#     date_start: 2019-10-01
-#     date_end: 2023-09-01
-#     summary: |2-
-#       Responsibilities include:
-#       - Dual-Loop Fuzzy-PID Acceleration Tracking Controller for Autonomous Mining Trucks under Variable Payload Conditions
-#       - Double-Layer Following Controller for Autonomous Vehicles
-#       - Lateral Trajectory Tracking of Autonomous Mining Trucks Using MPC with Adaptive Load Compensation
+      
+Publications:
+  - position: Hardware Engineer
+    company_name: CASIC
+    company_url: ''
+    company_logo: ''
+    date_start: 2019-10-01
+    date_end: 2023-09-01
+    summary: |2-
+      Responsibilities include:
+      - Dual-Loop Fuzzy-PID Acceleration Tracking Controller for Autonomous Mining Trucks under Variable Payload Conditions
+      - Double-Layer Following Controller for Autonomous Vehicles
+      - Lateral Trajectory Tracking of Autonomous Mining Trucks Using MPC with Adaptive Load Compensation
 work:
   - position: Hardware Engineer
     company_name: CASIC
