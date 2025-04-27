@@ -40,7 +40,13 @@ sections:
   #   content:
   #     title: Publications
   #     username: admin
-                      
+  - block: markdown
+    id: section-2
+    content:
+      title: Section 2
+      subtitle: A subtitle
+      text: Add your Section 2 content here...
+      
   - block: skills
     content:
       title: Skills & Hobbies
