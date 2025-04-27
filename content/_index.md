@@ -28,6 +28,7 @@ sections:
 
   - block: experience
     content:
+      title: Skills & Hobbies
       username: admin
     design:
       # Hugo date format
@@ -35,10 +36,10 @@ sections:
       # Education or Experience section first?
       is_education_first: true
 
-  - block: publications
-    content:
-      title: Publications
-      username: admin
+  # - block: publications
+  #   content:
+  #     title: Publications
+  #     username: admin
                       
   - block: skills
     content:
