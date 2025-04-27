@@ -44,16 +44,16 @@ sections:
       subtitle: In submit
       text: |
         <span style='font-size: 14px;'><b>Qin Tian</b>, Zhu Desheng, Wang Chunhui, et al. <i>Dual-Loop Fuzzy-PID Acceleration Tracking Controller for Autonomous Mining Trucks under Variable Payload Conditions</i>[J]. Coal Engineering. [Decision in Process]<br>
-        Targeting large-scale dynamic payload variations in mining trucks, developed a dual-loop fuzzy PID control architecture with parameter self-adaptive compensation.<br>
-        Outcome: Achieved a maximum speed error of 0.49 km/h (1.6% of the running speed) and maximum acceleration error of 0.103 m/s².<br>
-        Comparison: Compared with MPC, the peak-to-peak speed error reduced by 8.77%, and the acceleration error reduced by 13.30%.<br>
+        --<Targeting large-scale dynamic payload variations in mining trucks, developed a dual-loop fuzzy PID control architecture with parameter self-adaptive compensation.<br>
+        --<Outcome: Achieved a maximum speed error of 0.49 km/h (1.6% of the running speed) and maximum acceleration error of 0.103 m/s².<br>
+        --<Comparison: Compared with MPC, the peak-to-peak speed error reduced by 8.77%, and the acceleration error reduced by 13.30%.<br>
       subtitle: Conference
         Qin T, Qiu L, Chen J, et al. Double-Layer Following Controller for Autonomous Vehicles. 2024 36th Chinese Control and Decision Conference (CCDC).IEEE 2024:908-913.<br>
-        A dual-layer controller integrating DWA and fuzzy-adaptive PID was proposed for autonomous vehicles. This method resulted in a 19.5% reduction in the root mean square of lateral acceleration compared to the PID-Stanley algorithm, enhancing comfort while ensuring safety.<br>
+        --<A dual-layer controller integrating DWA and fuzzy-adaptive PID was proposed for autonomous vehicles. This method resulted in a 19.5% reduction in the root mean square of lateral acceleration compared to the PID-Stanley algorithm, enhancing comfort while ensuring safety.<br>
         Wang C, Zhu D, Qin T, et al. Lateral Trajectory Tracking of Autonomous Mining Trucks Using MPC with Adaptive Load Compensation. Chinese Control and Conference (CCC), IEEE 2025.<br>
-        The proposed model predictive control (MPC) algorithm with adaptive load compensation showed a 33.33% decrease in mean lateral error compared to the LQR algorithm under varying payload conditions, improving the system's robustness and accuracy in dynamic environments.<br>
+        --<The proposed model predictive control (MPC) algorithm with adaptive load compensation showed a 33.33% decrease in mean lateral error compared to the LQR algorithm under varying payload conditions, improving the system's robustness and accuracy in dynamic environments.<br>
         Yang P, Zhu D, Qin T, et al. Adaptive Heading Tracking Algorithm Based on Vehicle Dynamics Model. Chinese Control and Conference (CCC), IEEE 2025.<br>
-        The adaptive heading tracking algorithm demonstrated a 47% reduction in lateral error compared to traditional pure tracking algorithms, significantly enhancing control precision and stability in the autonomous navigation of mining trucks.</span>
+        --<The adaptive heading tracking algorithm demonstrated a 47% reduction in lateral error compared to traditional pure tracking algorithms, significantly enhancing control precision and stability in the autonomous navigation of mining trucks.</span>
 
   - block: skills
     content:
