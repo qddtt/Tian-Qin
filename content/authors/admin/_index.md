@@ -115,7 +115,7 @@ skills:
         icon: devicon/python
       - name: ROS C++
         description: ''
-        percent: 80
+        percent: 100
         icon: devicon/ros
         #icon: devicon/rstudio
       - name: PyTorch
@@ -142,7 +142,7 @@ skills:
 languages:
   - name: Chinese
     percent: 100
-  - name: English
+  - name: English(IELTS 6.5)
     percent: 75
   # - name: Portuguese
   #   percent: 25
