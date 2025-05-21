@@ -81,8 +81,8 @@ Publications:
       - Double-Layer Following Controller for Autonomous Vehicles
       - Lateral Trajectory Tracking of Autonomous Mining Trucks Using MPC with Adaptive Load Compensation
 work:
-  - position: Hardware Engineer
-    company_name: CASIC
+  - position: Hardware Engineer(work)
+    company_name: China Aerospace Science and Industry Corporation Limited (CASIC)
     company_url: ''
     company_logo: ''
     date_start: 2019-10-01
@@ -92,17 +92,16 @@ work:
       - Designed and implemented the control system of the unmanned mining truck.
       - Designed the PLC controller and developed the control redundancy system
       - Ensured the safe operation of 165 unmanned mining trucks, solving technical issues like communication disconnections and malfunctions.
-  # - position: Backend Software Engineer
-  #   company_name: X
-  #   company_url: ''
-  #   company_logo: ''
-  #   date_start: 2016-01-01
-  #   date_end: 2020-12-31
-  #   summary: |
-  #     Responsibilities include:
-  #     - Migrated infrastructure to a new data center
-  #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
+   
+  - position: Scientific Project
+    company_name: Key Technologies and Application Demonstration of Autonomous Transportation and Loading/Unloading System for Large Open-pit Mine Robots
+    company_url: ''
+    company_logo: ''
+    date_start: 2022-10
+    date_end: 2025-10
+    summary: |
+    Responsibilities include:
+      -According to the unloading area scenarios of mining trucks, designed and tested the MPC controller through the ROS C++ programming language and Python. The lateral parking errors and longitudinal errors at the loading points were controlled within 0.4 m and 0.15 m respectively.
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
