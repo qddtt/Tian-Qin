@@ -81,7 +81,7 @@ Publications:
       - Double-Layer Following Controller for Autonomous Vehicles
       - Lateral Trajectory Tracking of Autonomous Mining Trucks Using MPC with Adaptive Load Compensation
 work:
-  - position: Hardware Engineer(work)
+  - position: Hardware Engineer
     company_name: China Aerospace Science and Industry Corporation Limited (CASIC)
     company_url: ''
     company_logo: ''
