@@ -100,7 +100,7 @@ work:
     date_end: 2025-10
     summary: |
     Responsibilities include:
-      -According to the unloading area scenarios of mining trucks, designed and tested the MPC controller through the ROS C++ programming language and Python. The lateral parking errors and longitudinal errors at the loading points were controlled within 0.4 m and 0.15 m respectively.
+      According to the unloading area scenarios of mining trucks, designed and tested the MPC controller through the ROS C++ programming language and Python. The lateral parking errors and longitudinal errors at the loading points were controlled within 0.4 m and 0.15 m respectively.
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
