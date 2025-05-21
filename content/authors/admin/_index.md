@@ -92,7 +92,6 @@ work:
       - Designed and implemented the control system of the unmanned mining truck.
       - Designed the PLC controller and developed the control redundancy system
       - Ensured the safe operation of 165 unmanned mining trucks, solving technical issues like communication disconnections and malfunctions.
-   
   - position: Scientific Project
     company_name: Key Technologies and Application Demonstration of Autonomous Transportation and Loading/Unloading System for Large Open-pit Mine Robots
     company_url: ''
