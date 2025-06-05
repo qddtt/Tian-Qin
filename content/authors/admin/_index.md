@@ -54,7 +54,7 @@ education:
     date_start: 2023-09-01
     date_end: 
     summary: |
-      GPA: 3.4/4.0<br>
+      GPA: 3.6/4.0<br>
       [Lab of Intelligent Energy System and Autonomous Mining](https://www.researchgate.net/lab/Lab-of-Intelligent-Energy-System-and-Autonomous-Mining-Kehu-Yang)<br>
       Supervisor: Prof. Kehu Yang<br>
       State Stipend for TWO Years<br>
