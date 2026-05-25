@@ -6,16 +6,16 @@
 # Appearance
 appearance:
   mode: system
-  color: blue
+  color: indigo
 
 # SEO
 marketing:
   seo:
     site_type: Person
     local_business_type: ''
-    org_name: ''
-    description: 'A highly-customizable Hugo résumé theme powered by Hugo Blox Builder.'
-    twitter: 'GetResearchDev'
+    org_name: 'China University of Mining and Technology, Beijing'
+    description: 'Qin Tian — M.Sc. student in Control Science and Engineering at CUMTB. Research on Model Predictive Control, autonomous mining trucks, fuzzy-PID control.'
+    twitter: 'qintian0142'
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -35,7 +35,7 @@ header:
 # Site footer
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} Qin Tian. All rights reserved.'
     license:
       enable: true
       allow_derivatives: false
@@ -50,11 +50,10 @@ locale:
 # Site features
 features:
   math:
-    enable: false
+    enable: true
   privacy_pack:
     enable: false
 
 params:
   fontawesome:
     enable: true
-

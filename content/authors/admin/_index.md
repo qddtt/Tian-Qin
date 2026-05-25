@@ -17,69 +17,55 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Master's student
+role: M.Sc. in Control Science & Engineering
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
   - name: China University of Mining and Technology, Beijing
     url: https://www.cumtb.edu.cn/
+  - name: Lab of Intelligent Energy System and Autonomous Mining
+    url: https://www.researchgate.net/lab/Lab-of-Intelligent-Energy-System-and-Autonomous-Mining-Kehu-Yang
+
+# Short bio (displayed in user header at the beginning of sections)
+bio: I focus on Model Predictive Control for autonomous vehicles. My research spans fuzzy-PID control, trajectory tracking, and motion planning for mining trucks in unstructured environments.
 
 # Social network links
-# Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'qintian0142@163.com'
+    url: 'mailto:qintian0142@163.com'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
+  - icon: brands/google-scholar
+    url: 'https://scholar.google.com/'
+    label: Google Scholar
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/qddtt
+    label: GitHub
+  - icon: brands/orcid
+    url: 'https://orcid.org/'
+    label: ORCID
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: brands/instagram
-    url: https://www.instagram.com/
+    url: https://www.linkedin.com/in/qin-tian-905845352/
+    label: LinkedIn
 
 education:
-  # - area: PhD Artificial Intelligence
-  #   institution: China University of Mining and Technology Beijing(211)
-  #   date_start: 2023-09-01
-  #   date_end: Present
-  #   summary: |
-  #     Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-  #   button:
-  #     text: 'Read Thesis'
-  #     url: 'https://example.com'
   - area: M.Sc. in Control Science and Engineering
-    institution: China University of Mining and Technology Beijing (211)
+    institution: China University of Mining and Technology, Beijing (211)
     date_start: 2023-09-01
-    date_end: 
+    date_end: ''
     summary: |
-      GPA: 3.6/4.0<br>
-      [Lab of Intelligent Energy System and Autonomous Mining](https://www.researchgate.net/lab/Lab-of-Intelligent-Energy-System-and-Autonomous-Mining-Kehu-Yang)<br>
-      Supervisor: Prof. Kehu Yang<br>
-      State Stipend for TWO Years<br>
+      GPA: 3.6/4.0
+      Supervisor: Prof. Kehu Yang
+      Research focus: Model Predictive Control, Autonomous Mining Trucks
+      State Stipend for TWO Years
 
   - area: B.Eng. in Electronic and Information Engineering
     institution: Sichuan University (985)
     date_start: 2015-09-01
     date_end: 2019-06-01
     summary: |
-      GPA: 2.93/4.0<br>
-      The Second-class Academic Scholarship of Sichuan University<br>
+      GPA: 2.93/4.0
+      The Second-class Academic Scholarship of Sichuan University
 
-Publications:
-  - id: section-2
-  - position: Hardware Engineer
-    company_name: CASIC
-    company_url: ''
-    company_logo: ''
-    date_start: 2019-10-01
-    date_end: 2023-09-01
-    summary: |2-
-      Responsibilities include:
-      - Dual-Loop Fuzzy-PID Acceleration Tracking Controller for Autonomous Mining Trucks under Variable Payload Conditions
-      - Double-Layer Following Controller for Autonomous Vehicles
-      - Lateral Trajectory Tracking of Autonomous Mining Trucks Using MPC with Adaptive Load Compensation
 work:
   - position: Hardware Engineer
     company_name: China Aerospace Science and Industry Corporation Limited (CASIC)
@@ -87,43 +73,48 @@ work:
     company_logo: ''
     date_start: 2019-10-01
     date_end: 2023-09-01
-    summary: |2-
+    summary: |
       Responsibilities include:
-      - Designed and implemented the control system of the unmanned mining truck.
+      - Designed and implemented the control system of the unmanned mining truck
       - Designed the PLC controller and developed the control redundancy system
-      - Ensured the safe operation of 165 unmanned mining trucks, solving technical issues like communication disconnections and malfunctions.
-  # - position: Scientific Project
-  #   company_name: Key Technologies and Application Demonstration of Autonomous Transportation and Loading/Unloading System for Large Open-pit Mine Robots
-  #   company_url: ''
-  #   company_logo: ''
-  #   date_start: 2022-09-01
-  #   date_end: 2025-10-01
-  #   summary: |
-  #   Responsibilities include:
-  #     According to the unloading area scenarios of mining trucks, designed and tested the MPC controller through the ROS C++ programming language and Python. The lateral parking errors and longitudinal errors at the loading points were controlled within 0.4 m and 0.15 m respectively.
+      - Ensured the safe operation of 165 unmanned mining trucks, solving technical issues like communication disconnections and malfunctions
 
 # Skills
-# Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Technical Skills
+  - name: Research & Technical
     items:
+      - name: Model Predictive Control
+        description: 'MPC design, trajectory tracking, constraint optimization'
+        percent: 90
+        icon: devicon/python
+      - name: ROS / C++
+        description: 'Robot operating system, control stack development'
+        percent: 85
+        icon: devicon/ros
+      - name: Fuzzy-PID Control
+        description: 'Adaptive control, dual-loop architectures'
+        percent: 85
+        icon: devicon/python
       - name: Python
-        description: ''
+        description: 'Scientific computing, data analysis, control prototyping'
         percent: 80
         icon: devicon/python
-      - name: ROS C++
-        description: ''
-        percent: 100
-        icon: devicon/ros
-        #icon: devicon/rstudio
       - name: PyTorch
-        description: ''
+        description: 'Deep learning, reinforcement learning'
         percent: 40
         icon: devicon/pytorch
-  - name: Hobbies
+  - name: Interests
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
+      - name: Autonomous Driving
+        description: ''
+        percent: 100
+        icon: custom/autonomous
+      - name: Robotics
+        description: ''
+        percent: 80
+        icon: hero/puzzle-piece
       - name: Hiking
         description: ''
         percent: 60
@@ -132,48 +123,32 @@ skills:
         description: ''
         percent: 80
         icon: cat
-      - name: Game
-        description: ''
-        percent: 100
-        icon: hero/puzzle-piece
 
 languages:
   - name: Chinese
     percent: 100
-  - name: English(IELTS 6.5)
+  - name: English (IELTS 6.5)
     percent: 75
-  # - name: Portuguese
-  #   percent: 25
 
 # Awards.
-#   Add/remove as many awards below as you like.
-#   Only `title`, `awarder`, and `date` are required.
-#   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
   - title: China Intelligent Connected Vehicle Challenge (CICV) 2023
-    #url: https://www.coursera.org/learn/neural-networks-deep-learning
     date: '2023-11-25'
     awarder: Chinese Association for Artificial Intelligence (CAAI)
-    #icon: caai
-    #icon: coursera
     summary: |
       Developed an adaptive cruise controller within the Virtual Test Drive (VTD) simulation platform, optimizing vehicle trajectory and maintaining safe following distances using a hybrid control approach combining Dynamic Window Approach (DWA) and Fuzzy-PID control. Achieved outstanding performance with lateral acceleration RMS below 0.1 m/s² and longitudinal acceleration RMS below 0.06 m/s².
-  - title: Autopilot Challenge of the Vehicle-Road-Cloud Integration  2024
-    #url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
+  - title: Autopilot Challenge of the Vehicle-Road-Cloud Integration 2024
     date: '2024-06-01'
     awarder: China Association of Automobile Manufacturers
-    #icon: edx
     summary: |
       Deployed system integration of an LQR controller onto an autonomous vehicle platform, enabling real-world execution of tasks such as parking, obstacle avoidance, lane-changing, and U-turns. Achieved 7th place out of 118 teams in a competitive evaluation.
   - title: National Post-Graduate Mathematical Contest in Modeling
-    #url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    #certificate_url: https://www.datacamp.com
     date: '2024-09-21'
     awarder: China Academic Degrees and Graduate Education Development Center
-    #icon: datacamp
     summary: |
       Constructed a multi-physics field coupling model for magnetic components and optimized its parameters using particle swarm optimization, resulting in a 5% improvement in model accuracy.
 ---
 
-<!-- I am currently Director of Cloud Infrastructure at GenCoin where I am leading teams on edge computing, deep sea data center architecture, and hivemind optimization. -->
-As a graduate student majoring in Control Science and Engineering, I focus on Model Predictive Control. I am not only passionate about theoretical research but also enjoy getting involved in practical projects and constantly pursue new knowledge.
+I am a graduate student in Control Science and Engineering at China University of Mining and Technology, Beijing. My research focuses on **Model Predictive Control (MPC)** for autonomous mining trucks in unstructured open-pit environments, with a particular emphasis on trajectory tracking under variable payload conditions.
+
+Before starting my M.Sc., I spent four years at CASIC (China Aerospace Science and Industry Corporation) as a Hardware Engineer, where I designed and deployed control systems for 165+ unmanned mining trucks — experience that grounds my academic work in real-world engineering challenges.
