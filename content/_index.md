@@ -129,11 +129,49 @@ sections:
       title: 'Awards'
       username: admin
 
-  # ── Skills ────────────────────────────────────────────
-  - block: skills
+  # ── Skills & Tools ────────────────────────────────────
+  - block: markdown
     content:
-      title: 'Skills & Research Tools'
-      username: admin
+      title: 'Skills & Tools'
+      text: |-
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;">
+
+        <div>
+        <b style="font-size: 0.95rem;">Control & Optimization</b><br>
+        <span style="display: inline-block; background: rgba(99,102,241,0.1); color: var(--color-primary); border-radius: 999px; padding: 0.2rem 0.7rem; font-size: 0.8rem; margin: 0.2rem;">Model Predictive Control</span>
+        <span style="display: inline-block; background: rgba(99,102,241,0.1); color: var(--color-primary); border-radius: 999px; padding: 0.2rem 0.7rem; font-size: 0.8rem; margin: 0.2rem;">Fuzzy-PID Control</span>
+        <span style="display: inline-block; background: rgba(99,102,241,0.1); color: var(--color-primary); border-radius: 999px; padding: 0.2rem 0.7rem; font-size: 0.8rem; margin: 0.2rem;">LQR / DWA</span>
+        <span style="display: inline-block; background: rgba(99,102,241,0.1); color: var(--color-primary); border-radius: 999px; padding: 0.2rem 0.7rem; font-size: 0.8rem; margin: 0.2rem;">Trajectory Tracking</span>
+        <span style="display: inline-block; background: rgba(99,102,241,0.1); color: var(--color-primary); border-radius: 999px; padding: 0.2rem 0.7rem; font-size: 0.8rem; margin: 0.2rem;">Particle Swarm Opt.</span>
+        </div>
+
+        <div>
+        <b style="font-size: 0.95rem;">Programming & Tools</b><br>
+        <span style="display: inline-block; background: rgba(99,102,241,0.1); color: var(--color-primary); border-radius: 999px; padding: 0.2rem 0.7rem; font-size: 0.8rem; margin: 0.2rem;">Python</span>
+        <span style="display: inline-block; background: rgba(99,102,241,0.1); color: var(--color-primary); border-radius: 999px; padding: 0.2rem 0.7rem; font-size: 0.8rem; margin: 0.2rem;">ROS / C++</span>
+        <span style="display: inline-block; background: rgba(99,102,241,0.1); color: var(--color-primary); border-radius: 999px; padding: 0.2rem 0.7rem; font-size: 0.8rem; margin: 0.2rem;">MATLAB / Simulink</span>
+        <span style="display: inline-block; background: rgba(99,102,241,0.1); color: var(--color-primary); border-radius: 999px; padding: 0.2rem 0.7rem; font-size: 0.8rem; margin: 0.2rem;">PyTorch</span>
+        <span style="display: inline-block; background: rgba(99,102,241,0.1); color: var(--color-primary); border-radius: 999px; padding: 0.2rem 0.7rem; font-size: 0.8rem; margin: 0.2rem;">PLC Programming</span>
+        </div>
+
+        <div>
+        <b style="font-size: 0.95rem;">Simulation & Platforms</b><br>
+        <span style="display: inline-block; background: rgba(99,102,241,0.1); color: var(--color-primary); border-radius: 999px; padding: 0.2rem 0.7rem; font-size: 0.8rem; margin: 0.2rem;">VTD (Virtual Test Drive)</span>
+        <span style="display: inline-block; background: rgba(99,102,241,0.1); color: var(--color-primary); border-radius: 999px; padding: 0.2rem 0.7rem; font-size: 0.8rem; margin: 0.2rem;">CarSim / TruckSim</span>
+        <span style="display: inline-block; background: rgba(99,102,241,0.1); color: var(--color-primary); border-radius: 999px; padding: 0.2rem 0.7rem; font-size: 0.8rem; margin: 0.2rem;">Gazebo</span>
+        <span style="display: inline-block; background: rgba(99,102,241,0.1); color: var(--color-primary); border-radius: 999px; padding: 0.2rem 0.7rem; font-size: 0.8rem; margin: 0.2rem;">Baostock / qlib</span>
+        </div>
+
+        <div>
+        <b style="font-size: 0.95rem;">Research Interests</b><br>
+        <span style="display: inline-block; background: rgba(236,72,153,0.1); color: #ec4899; border-radius: 999px; padding: 0.2rem 0.7rem; font-size: 0.8rem; margin: 0.2rem;">Autonomous Mining</span>
+        <span style="display: inline-block; background: rgba(236,72,153,0.1); color: #ec4899; border-radius: 999px; padding: 0.2rem 0.7rem; font-size: 0.8rem; margin: 0.2rem;">Field Robotics</span>
+        <span style="display: inline-block; background: rgba(236,72,153,0.1); color: #ec4899; border-radius: 999px; padding: 0.2rem 0.7rem; font-size: 0.8rem; margin: 0.2rem;">Optimal Control</span>
+        <span style="display: inline-block; background: rgba(236,72,153,0.1); color: #ec4899; border-radius: 999px; padding: 0.2rem 0.7rem; font-size: 0.8rem; margin: 0.2rem;">Vehicle-Road-Cloud</span>
+        <span style="display: inline-block; background: rgba(236,72,153,0.1); color: #ec4899; border-radius: 999px; padding: 0.2rem 0.7rem; font-size: 0.8rem; margin: 0.2rem;">Reinforcement Learning</span>
+        </div>
+
+        </div>
 
   # ── Languages ─────────────────────────────────────────
   - block: languages
