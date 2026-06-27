@@ -1,1 +1,5 @@
 resources/
+public/
+hugo_stats.json
+.hugo_build.lock
+hugo-server*.log

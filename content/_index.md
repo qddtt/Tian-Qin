@@ -1,181 +1,122 @@
 ---
-title: 'Home'
-date: 2023-10-24
+title: Home
+date: 2026-06-27
 type: landing
 
 design:
-  spacing: '5rem'
+  spacing: '4.5rem'
 
 sections:
-  # ── About / Biography ─────────────────────────────────
   - block: biography
     content:
       username: admin
       button:
         text: Download CV
-        url: uploads/resume.pdf
+        url: uploads/cv-qin-tian.pdf
     design:
       banner:
         filename: kalen-emsley-Bkci_8qcdvQ-unsplash.jpg
       biography:
-        style: 'text-align: justify; font-size: 0.9em;'
+        style: 'text-align: justify; font-size: 0.95em;'
 
-  # ── Research Interests ────────────────────────────────
   - block: markdown
     content:
-      title: 'Research Interests'
+      title: Research Arc
       text: |-
-        My research lies at the intersection of **optimal control**, **autonomous navigation**, and **field robotics** — with a focus on unstructured, off-road environments where payload, terrain, and safety constraints interact.
+        I study control and autonomy for heavy-duty vehicles operating in complex, unstructured environments. My current work is grounded in **Model Predictive Control (MPC)**, fuzzy-PID control, trajectory tracking, and field-deployed unmanned mining truck systems.
 
-        **Model Predictive Control (MPC) for Autonomous Mining Trucks**
-        <span style="font-size:0.85em;">
-        Developing real-time MPC frameworks that handle variable payload conditions (30–150 tons), steep grades, and loose terrain in open-pit mines. Current work on adaptive load compensation achieves <b>33% lateral error reduction</b> over LQR baselines.
-        </span>
+        My PhD goal is to extend this foundation toward **reinforcement learning**, **learning-based control**, and **data-driven autonomy**. I am especially interested in methods that combine the reliability of model-based control with the adaptability of learning methods under payload variation, terrain uncertainty, and safety constraints.
 
-        **Fuzzy-PID & Hybrid Control Architectures**
-        <span style="font-size:0.85em;">
-        Dual-loop fuzzy-PID controllers for acceleration tracking in mining trucks. Self-adaptive compensation reduces peak-to-peak speed error by <b>8.77%</b> and acceleration error by <b>13.30%</b> compared to pure MPC — combining the robustness of fuzzy logic with the predictive power of MPC.
-        </span>
-
-        **Vehicle-Road-Cloud Integration**
-        <span style="font-size:0.85em;">
-        Deployed LQR controllers on real autonomous vehicle platforms for parking, obstacle avoidance, lane-changing, and U-turns — achieving <b>7th place out of 118 teams</b> in national competition.
-        </span>
-
-    design:
-      columns: '1'
-
-  # ── Publications ──────────────────────────────────────
-  - block: markdown
-    id: publications
-    content:
-      title: 'Publications'
-      text: |-
-        <span style='font-size: 15px;'>
-
-        <b style='font-size: 17px;'>Journal</b><br>
-        <b>Qin T</b>, Zhu D, Wang C, et al. <i>Dual-Loop Fuzzy-PID Acceleration Tracking Controller for Autonomous Mining Trucks under Variable Payload Conditions</i>. <b>Coal Engineering</b>, 2026 (in press).<br>
-        <span style='color: #666;'>→ Dual-loop fuzzy PID with self-adaptive compensation. Max speed error 0.49 km/h (1.6%). 8.77% improvement in peak-to-peak error vs. MPC.</span>
-
-        <br><b style='font-size: 17px;'>Conference</b><br>
-        <b>Qin T</b>, Qiu L, Chen J, et al. <i>Double-Layer Following Controller for Autonomous Vehicles</i>. <b>CCDC 2024</b>, IEEE, pp. 908–913.<br>
-        <span style='color: #666;'>→ DWA + fuzzy-adaptive PID dual-layer controller. 19.5% reduction in lateral acceleration RMS vs. PID-Stanley.</span>
-
-        <br>Wang C, Zhu D, <b>Qin T</b>, et al. <i>Lateral Trajectory Tracking of Autonomous Mining Trucks Using MPC with Adaptive Load Compensation</i>. <b>CCC 2025</b>, IEEE.<br>
-        <span style='color: #666;'>→ 33.33% reduction in mean lateral error vs. LQR, improving robustness under variable payload.</span>
-
-        <br>Yang P, Zhu D, <b>Qin T</b>, et al. <i>Adaptive Heading Tracking Algorithm Based on Vehicle Dynamics Model</i>. <b>CCC 2025</b>, IEEE.<br>
-        <span style='color: #666;'>→ 47% reduction in lateral error compared to pure pursuit, enhancing navigation precision.</span>
-
-        </span>
-    design:
-      columns: '1'
-
-  # ── Projects ──────────────────────────────────────────
-  - block: markdown
-    id: projects
-    content:
-      title: 'Projects'
-      text: |-
-        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;">
-
-        <div style="border: 1px solid #e5e7eb; border-radius: 8px; padding: 1.2rem; background: rgba(255,255,255,0.03);">
-        <b>rbMPC-truck</b><br>
-        <span style="font-size:0.85em; color:#666;">
-        Reproduction and migration of Model Predictive Control algorithms for autonomous mining trucks.
-        </span>
-        <br><span style="font-size:0.8em;">
-        <a href="https://github.com/qddtt/rbMPC-truck">github.com/qddtt/rbMPC-truck</a>
-        </span>
-        </div>
-
-        <div style="border: 1px solid #e5e7eb; border-radius: 8px; padding: 1.2rem; background: rgba(255,255,255,0.03);">
-        <b>Unmanned Mining Truck Control System</b><br>
-        <span style="font-size:0.85em; color:#666;">
-        PLC-based control redundancy system deployed across 165+ unmanned mining trucks at CASIC (2019–2023).
-        </span>
-        </div>
-
-        <div style="border: 1px solid #e5e7eb; border-radius: 8px; padding: 1.2rem; background: rgba(255,255,255,0.03);">
-        <b>Autopilot Challenge 2024</b><br>
-        <span style="font-size:0.85em; color:#666;">
-        LQR controller integration on real autonomous vehicle platform. 7th/118 teams in vehicle-road-cloud competition.
-        </span>
-        </div>
-
-        <div style="border: 1px solid #e5e7eb; border-radius: 8px; padding: 1.2rem; background: rgba(255,255,255,0.03);">
-        <b>CICV 2023 Adaptive Cruise Controller</b><br>
-        <span style="font-size:0.85em; color:#666;">
-        DWA + Fuzzy-PID hybrid controller in VTD simulation. Lateral accel RMS < 0.1 m/s², longitudinal < 0.06 m/s².
-        </span>
-        </div>
-
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1rem;margin-top:1.25rem;">
+          <div style="border:1px solid rgba(148,163,184,.35);border-radius:8px;padding:1rem;">
+            <strong>Control Foundation</strong><br>
+            <span style="font-size:.9rem;">MPC, LQR, fuzzy-PID, trajectory tracking, and vehicle dynamics modeling.</span>
+          </div>
+          <div style="border:1px solid rgba(148,163,184,.35);border-radius:8px;padding:1rem;">
+            <strong>Field Context</strong><br>
+            <span style="font-size:.9rem;">Autonomous mining trucks, variable payloads, steep grades, loose terrain, and safety-critical deployment.</span>
+          </div>
+          <div style="border:1px solid rgba(148,163,184,.35);border-radius:8px;padding:1rem;">
+            <strong>PhD Direction</strong><br>
+            <span style="font-size:.9rem;">Learning-based and data-driven control for robust autonomous systems.</span>
+          </div>
         </div>
     design:
       columns: '1'
 
-  # ── Experience ────────────────────────────────────────
+  - block: markdown
+    content:
+      title: Selected Publications
+      text: |-
+        **Journal**
+
+        **Qin T**, Zhu D, Wang C, et al. *Dual-Loop Fuzzy-PID Acceleration Tracking Controller for Autonomous Mining Trucks under Variable Payload Conditions*. **Coal Engineering**, 2026 (in press).
+
+        **Conference**
+
+        **Qin T**, Qiu L, Chen J, et al. *Double-Layer Following Controller for Autonomous Vehicles*. **CCDC 2024**, IEEE, pp. 908-913.
+
+        Wang C, Zhu D, **Qin T**, et al. *Lateral Trajectory Tracking of Autonomous Mining Trucks Using MPC with Adaptive Load Compensation*. **CCC 2025**, IEEE.
+
+        Yang P, Zhu D, **Qin T**, et al. *Adaptive Heading Tracking Algorithm Based on Vehicle Dynamics Model*. **CCC 2025**, IEEE.
+
+        [View all publications](/publications/)
+    design:
+      columns: '1'
+
+  - block: markdown
+    content:
+      title: Selected Projects
+      text: |-
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1rem;">
+          <div style="border:1px solid rgba(148,163,184,.35);border-radius:8px;padding:1rem;">
+            <strong>rbMPC-truck</strong><br>
+            <span style="font-size:.9rem;">Reproduction and migration of MPC algorithms for autonomous mining truck trajectory tracking.</span><br>
+            <a href="https://github.com/qddtt/rbMPC-truck">github.com/qddtt/rbMPC-truck</a>
+          </div>
+          <div style="border:1px solid rgba(148,163,184,.35);border-radius:8px;padding:1rem;">
+            <strong>Unmanned Mining Truck Control System</strong><br>
+            <span style="font-size:.9rem;">PLC-based controller and redundancy logic supporting 165+ unmanned mining trucks in field operation.</span>
+          </div>
+          <div style="border:1px solid rgba(148,163,184,.35);border-radius:8px;padding:1rem;">
+            <strong>Vehicle-Road-Cloud Autopilot Challenge</strong><br>
+            <span style="font-size:.9rem;">LQR controller integration on a real autonomous vehicle platform; ranked 7th among 118 teams.</span>
+          </div>
+        </div>
+
+        [View all projects](/projects/)
+    design:
+      columns: '1'
+
+  - block: markdown
+    content:
+      title: Research Notes
+      text: |-
+        I use the notes section for selected, public-facing research reflections that connect my control background with learning-based methods.
+
+        - MPC to learning-based control roadmap
+        - Reinforcement learning foundations for control researchers
+        - Field robotics questions from autonomous mining truck deployment
+
+        [Read selected notes](/notes/)
+    design:
+      columns: '1'
+
   - block: experience
     content:
-      title: 'Experience'
+      title: Experience
       username: admin
     design:
       date_format: 'January 2006'
       is_education_first: true
 
-  # ── Awards ────────────────────────────────────────────
   - block: awards
     content:
-      title: 'Awards'
+      title: Awards
       username: admin
 
-  # ── Skills & Tools ────────────────────────────────────
-  - block: markdown
-    content:
-      title: 'Skills & Tools'
-      text: |-
-        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;">
-
-        <div>
-        <b style="font-size: 0.95rem;">Control & Optimization</b><br>
-        <span style="display: inline-block; background: rgba(99,102,241,0.1); color: var(--color-primary); border-radius: 999px; padding: 0.2rem 0.7rem; font-size: 0.8rem; margin: 0.2rem;">Model Predictive Control</span>
-        <span style="display: inline-block; background: rgba(99,102,241,0.1); color: var(--color-primary); border-radius: 999px; padding: 0.2rem 0.7rem; font-size: 0.8rem; margin: 0.2rem;">Fuzzy-PID Control</span>
-        <span style="display: inline-block; background: rgba(99,102,241,0.1); color: var(--color-primary); border-radius: 999px; padding: 0.2rem 0.7rem; font-size: 0.8rem; margin: 0.2rem;">LQR / DWA</span>
-        <span style="display: inline-block; background: rgba(99,102,241,0.1); color: var(--color-primary); border-radius: 999px; padding: 0.2rem 0.7rem; font-size: 0.8rem; margin: 0.2rem;">Trajectory Tracking</span>
-        <span style="display: inline-block; background: rgba(99,102,241,0.1); color: var(--color-primary); border-radius: 999px; padding: 0.2rem 0.7rem; font-size: 0.8rem; margin: 0.2rem;">Particle Swarm Opt.</span>
-        </div>
-
-        <div>
-        <b style="font-size: 0.95rem;">Programming & Tools</b><br>
-        <span style="display: inline-block; background: rgba(99,102,241,0.1); color: var(--color-primary); border-radius: 999px; padding: 0.2rem 0.7rem; font-size: 0.8rem; margin: 0.2rem;">Python</span>
-        <span style="display: inline-block; background: rgba(99,102,241,0.1); color: var(--color-primary); border-radius: 999px; padding: 0.2rem 0.7rem; font-size: 0.8rem; margin: 0.2rem;">ROS / C++</span>
-        <span style="display: inline-block; background: rgba(99,102,241,0.1); color: var(--color-primary); border-radius: 999px; padding: 0.2rem 0.7rem; font-size: 0.8rem; margin: 0.2rem;">MATLAB / Simulink</span>
-        <span style="display: inline-block; background: rgba(99,102,241,0.1); color: var(--color-primary); border-radius: 999px; padding: 0.2rem 0.7rem; font-size: 0.8rem; margin: 0.2rem;">PyTorch</span>
-        <span style="display: inline-block; background: rgba(99,102,241,0.1); color: var(--color-primary); border-radius: 999px; padding: 0.2rem 0.7rem; font-size: 0.8rem; margin: 0.2rem;">PLC Programming</span>
-        </div>
-
-        <div>
-        <b style="font-size: 0.95rem;">Simulation & Platforms</b><br>
-        <span style="display: inline-block; background: rgba(99,102,241,0.1); color: var(--color-primary); border-radius: 999px; padding: 0.2rem 0.7rem; font-size: 0.8rem; margin: 0.2rem;">VTD (Virtual Test Drive)</span>
-        <span style="display: inline-block; background: rgba(99,102,241,0.1); color: var(--color-primary); border-radius: 999px; padding: 0.2rem 0.7rem; font-size: 0.8rem; margin: 0.2rem;">CarSim / TruckSim</span>
-        <span style="display: inline-block; background: rgba(99,102,241,0.1); color: var(--color-primary); border-radius: 999px; padding: 0.2rem 0.7rem; font-size: 0.8rem; margin: 0.2rem;">Gazebo</span>
-        <span style="display: inline-block; background: rgba(99,102,241,0.1); color: var(--color-primary); border-radius: 999px; padding: 0.2rem 0.7rem; font-size: 0.8rem; margin: 0.2rem;">Baostock / qlib</span>
-        </div>
-
-        <div>
-        <b style="font-size: 0.95rem;">Research Interests</b><br>
-        <span style="display: inline-block; background: rgba(236,72,153,0.1); color: #ec4899; border-radius: 999px; padding: 0.2rem 0.7rem; font-size: 0.8rem; margin: 0.2rem;">Autonomous Mining</span>
-        <span style="display: inline-block; background: rgba(236,72,153,0.1); color: #ec4899; border-radius: 999px; padding: 0.2rem 0.7rem; font-size: 0.8rem; margin: 0.2rem;">Field Robotics</span>
-        <span style="display: inline-block; background: rgba(236,72,153,0.1); color: #ec4899; border-radius: 999px; padding: 0.2rem 0.7rem; font-size: 0.8rem; margin: 0.2rem;">Optimal Control</span>
-        <span style="display: inline-block; background: rgba(236,72,153,0.1); color: #ec4899; border-radius: 999px; padding: 0.2rem 0.7rem; font-size: 0.8rem; margin: 0.2rem;">Vehicle-Road-Cloud</span>
-        <span style="display: inline-block; background: rgba(236,72,153,0.1); color: #ec4899; border-radius: 999px; padding: 0.2rem 0.7rem; font-size: 0.8rem; margin: 0.2rem;">Reinforcement Learning</span>
-        </div>
-
-        </div>
-
-  # ── Languages ─────────────────────────────────────────
   - block: languages
     content:
-      title: 'Languages'
+      title: Languages
       username: admin
 ---

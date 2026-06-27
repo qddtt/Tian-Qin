@@ -1,36 +1,51 @@
-# [Hugo Résumé Theme](https://github.com/HugoBlox/theme-resume)
+# Qin Tian - Academic Personal Website
 
-[![Screenshot](./.github/preview.png)](https://hugoblox.com/templates/)
+This repository contains the source for Qin Tian's academic personal website:
 
-The Hugo **Résumé Template** empowers you to easily create your job-winning online résumé, showcase your expertise, and share your social profiles to grow your audience.
+https://tianqin.netlify.app/
 
-️**Trusted by 250,000+ researchers, educators, and students.** Highly customizable via the integrated **no-code, block-based website builder**, making every site truly personalized ⭐⭐⭐⭐⭐
+The site is built with Hugo and Hugo Blox. It is designed as an English-first PhD application and research portfolio site, highlighting:
 
-[![Get Started](https://img.shields.io/badge/-Get%20started-ff4655?style=for-the-badge)](https://hugoblox.com/templates/)
-[![Discord](https://img.shields.io/discord/722225264733716590?style=for-the-badge)](https://discord.com/channels/722225264733716590/742892432458252370/742895548159492138)  
-[![Twitter Follow](https://img.shields.io/twitter/follow/GetResearchDev?label=Follow%20on%20Twitter)](https://twitter.com/GetResearchDev)
+- Model Predictive Control and trajectory tracking for autonomous mining trucks
+- Field experience with unmanned mining truck control systems
+- Publications and projects in autonomous driving, MPC, fuzzy-PID, and vehicle-road-cloud integration
+- A forward-looking research direction toward reinforcement learning, learning-based control, and data-driven autonomous systems
 
-[Check out the latest demo](https://hugo-resume-theme.netlify.app/) of what you'll get in less than 10 minutes, or [view the showcase](https://hugoblox.com/creators/).
+## Local Development
 
-The integrated [**Hugo Blox**](https://hugoblox.com) website builder and CMS makes it easy to create a beautiful website for free. Edit your site in the CMS (or your favorite editor), generate it with [Hugo](https://github.com/gohugoio/hugo), and deploy with GitHub or Netlify. Customize anything on your site with widgets, light/dark themes, and language packs.
+This project uses a pinned Hugo version to match Netlify:
 
-- 👉 [**Get Started**](https://hugoblox.com/templates/)
-- 📚 [View the **documentation**](https://docs.hugoblox.com/)
-- 💬 [Chat with the **Hugo Blox Builder community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- ⬇️ **Automatically import citations from BibTeX** with the [Hugo Academic CLI](https://github.com/GetRD/academic-file-converter)
-- 🐦 Share your new site with the community: [@GetResearchDev](https://twitter.com/GetResearchDev) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithHugoBlox](https://twitter.com/search?q=%23MadeWithHugoBlox&src=typed_query)
-- 🗳 [Take the survey and help us improve #OpenSource](https://forms.gle/NioD9VhUg7PNmdCAA)
-- 🚀 [Contribute improvements](https://github.com/HugoBlox/hugo-blox-builder/blob/main/CONTRIBUTING.md) or [suggest improvements](https://github.com/HugoBlox/hugo-blox-builder/issues)
-- ⬆️ **Updating?** View the [Update Guide](https://docs.hugoblox.com/) and [Release Notes](https://github.com/HugoBlox/hugo-blox-builder/releases)
+```powershell
+D:\博士入学前\工具链\hugo-0.136.5\hugo.exe server
+```
 
-## We ask you, humbly, to support this open source movement
+Production build:
 
-Today we ask you to defend the open source independence of the Hugo Blox Builder and themes 🐧
+```powershell
+D:\博士入学前\工具链\hugo-0.136.5\hugo.exe --gc --minify -b https://tianqin.netlify.app/
+```
 
-We're an open source movement that depends on your support to stay online and thriving, but 99.9% of our creators don't give; they simply look the other way.
+Go is required for Hugo modules and is kept outside the C drive:
 
-### [❤️ Click here to become a GitHub Sponsor, unlocking awesome perks such as _exclusive academic templates and widgets_](https://github.com/sponsors/gcushen)
+```powershell
+D:\博士入学前\工具链\go1.26.4\bin\go.exe version
+```
 
-## Demo credits
+## Public Content Boundary
 
-- [Unsplash](https://unsplash.com/) images
+Only public application-facing materials should be committed here:
+
+- Website content
+- Public CV PDF
+- Publication and project summaries
+- Selected English research notes
+
+Do not commit transcripts, recommendation letters, application forms, private school lists, raw learning materials, or copyrighted books.
+
+## Deployment
+
+Netlify is the primary deployment target. The canonical site URL is:
+
+https://tianqin.netlify.app/
+
+GitHub Pages configuration may remain available as a secondary workflow, but Netlify is treated as the official public site.

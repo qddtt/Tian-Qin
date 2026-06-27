@@ -1,21 +1,18 @@
 # SITE SETUP
 # Guide: https://docs.hugoblox.com/tutorial/
 # Documentation: https://docs.hugoblox.com/
-# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-# Appearance
 appearance:
   mode: system
   color: indigo
 
-# SEO
 marketing:
   seo:
     site_type: Person
     local_business_type: ''
     org_name: 'China University of Mining and Technology, Beijing'
-    description: 'Qin Tian — M.Sc. student in Control Science and Engineering at CUMTB. Research on Model Predictive Control, autonomous mining trucks, fuzzy-PID control.'
-    twitter: 'qintian0142'
+    description: 'Qin Tian is an M.Sc. student in Control Science and Engineering working on MPC, trajectory tracking, and autonomous mining trucks, with a PhD research direction toward reinforcement learning and data-driven control.'
+    twitter: ''
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -26,28 +23,34 @@ marketing:
     google: ''
     baidu: ''
 
-# Site header
 header:
   navbar:
     enable: true
-    blox: floating-theme-toggler
+    blox: navbar
+    align: right
+    show_search: false
+    show_theme_chooser: true
+    show_translations: false
+    logo:
+      text: 'Qin Tian'
+    button:
+      enable: true
+      text: 'Download CV'
+      url: '/uploads/cv-qin-tian.pdf'
 
-# Site footer
 footer:
   copyright:
     notice: '© {year} Qin Tian. All rights reserved.'
     license:
-      enable: true
+      enable: false
       allow_derivatives: false
       share_alike: true
       allow_commercial: false
 
-# Localization
 locale:
   date_format: 'Jan 2, 2006'
   time_format: '3:04 PM'
 
-# Site features
 features:
   math:
     enable: true
