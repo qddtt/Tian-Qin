@@ -48,5 +48,5 @@ These projects connect my field engineering experience with graduate research in
 
 - **Goal:** Build an adaptive cruise control strategy in the Virtual Test Drive simulation platform.
 - **Methods:** Dynamic Window Approach and fuzzy-PID hybrid control.
-- **Result:** Contribution Award (Top 5%); lateral acceleration RMS below 0.1 m/s^2 and longitudinal acceleration RMS below 0.06 m/s^2.
+- **Result:** Contribution Award (Top 5%); lateral acceleration RMS below 0.1 m/s<sup>2</sup> and longitudinal acceleration RMS below 0.06 m/s<sup>2</sup>.
 - **Research value:** Provided an early bridge between motion planning and adaptive control.

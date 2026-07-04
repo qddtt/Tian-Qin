@@ -232,6 +232,11 @@ body {
   margin-top: 1.4rem;
 }
 
+.project-list {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  max-width: 920px;
+}
+
 .research-thread article,
 .project-item {
   border: 1px solid var(--academic-line);
@@ -333,6 +338,23 @@ body {
 .blox-resume-experience .text-lg,
 .blox-resume-awards .text-lg {
   color: var(--academic-ink);
+}
+
+.blox-resume-experience .prose ul {
+  margin-top: 0.6rem;
+  margin-bottom: 0;
+  padding-left: 1.1rem;
+}
+
+.blox-resume-experience .prose li {
+  margin-top: 0.22rem;
+  margin-bottom: 0.22rem;
+  color: var(--academic-muted);
+  line-height: 1.55;
+}
+
+.blox-resume-experience .prose li::marker {
+  color: var(--academic-blue);
 }
 
 #section-resume-awards > .home-section-bg + div {

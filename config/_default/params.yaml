@@ -40,7 +40,7 @@ header:
 
 footer:
   copyright:
-    notice: '(c) {year} Qin Tian. All rights reserved.'
+    notice: '© {year} Qin Tian. All rights reserved.'
     license:
       enable: false
       allow_derivatives: false

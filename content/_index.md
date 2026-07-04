@@ -55,7 +55,7 @@ sections:
             <div class="publication-year">2026</div>
             <div>
               <p><strong>Qin T</strong>, Zhu D, Wang C, et al. <em>Dual-Loop Fuzzy-PID Acceleration Tracking Controller for Autonomous Mining Trucks under Variable Payload Conditions</em>.</p>
-              <p class="publication-meta">Coal Engineering, accepted. Focus: variable-payload acceleration tracking; maximum speed error 0.49 km/h and maximum acceleration error 0.103 m/s^2.</p>
+              <p class="publication-meta">Coal Engineering, accepted. Focus: variable-payload acceleration tracking; maximum speed error 0.49 km/h and maximum acceleration error 0.103 m/s<sup>2</sup>.</p>
             </div>
           </article>
 
@@ -94,7 +94,7 @@ sections:
       text: |-
         <div class="project-list">
           <article class="project-item">
-            <h3>Autonomous Transportation and Loading/Unloading System for Large Open-Pit Mine Robots</h3>
+            <h3>Open-Pit Mine Robot Autonomy</h3>
             <p>National Key Research and Development Program work on low-speed unmanned mining-truck control, including adaptive/fuzzy-PID longitudinal control and load-adaptive MPC for lateral trajectory tracking.</p>
           </article>
 

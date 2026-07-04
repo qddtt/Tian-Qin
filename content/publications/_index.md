@@ -12,7 +12,7 @@ My publications focus on control algorithms for autonomous vehicles and mining t
 
 - **Problem:** Longitudinal acceleration tracking becomes unstable when autonomous mining trucks operate under variable payload conditions.
 - **Method:** Dual-loop fuzzy-PID controller with self-adaptive compensation.
-- **Result:** Maximum speed error of 0.49 km/h and maximum acceleration error of 0.103 m/s^2; peak-to-peak speed and acceleration errors improved by 8.77% and 13.30% compared with MPC.
+- **Result:** Maximum speed error of 0.49 km/h and maximum acceleration error of 0.103 m/s<sup>2</sup>; peak-to-peak speed and acceleration errors improved by 8.77% and 13.30% compared with MPC.
 - **My contribution:** First-author work on variable-payload longitudinal control, including controller design, experiment analysis, and paper preparation.
 
 ## Conference

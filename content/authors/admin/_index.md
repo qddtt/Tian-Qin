@@ -6,7 +6,7 @@ last_name: Qin
 
 superuser: true
 
-role: Control Algorithm Engineer | Prospective PhD Applicant
+role: Control Algorithm Engineer
 
 organizations:
   - name: China University of Mining and Technology, Beijing
@@ -30,19 +30,19 @@ education:
     date_start: 2023-09-01
     date_end: 2025-09-01
     summary: |
-      GPA: 3.59/4.0
-      Supervisor: Prof. Kehu Yang
-      Lab: Lab of Intelligent Energy System and Autonomous Mining
-      Coursework: Linear System Theory (96), Adaptive Control (94), Advanced Signal Processing (93)
-      Research focus: Model Predictive Control, autonomous mining trucks, trajectory tracking, model calibration, and robust control under variable payload conditions
+      - GPA: 3.59/4.0
+      - Supervisor: Prof. Kehu Yang
+      - Lab: Lab of Intelligent Energy System and Autonomous Mining
+      - Coursework: Linear System Theory (96), Adaptive Control (94), Advanced Signal Processing (93)
+      - Research focus: Model Predictive Control, autonomous mining trucks, trajectory tracking, model calibration, and robust control under variable payload conditions
 
   - area: B.Eng. in Electronic and Information Engineering
     institution: Sichuan University (985)
     date_start: 2015-09-01
     date_end: 2019-06-01
     summary: |
-      GPA: 2.93/4.0
-      Second-class Academic Scholarship of Sichuan University
+      - GPA: 2.93/4.0
+      - Second-class Academic Scholarship of Sichuan University
 
 work:
   - position: Control Algorithm Engineer
@@ -125,7 +125,7 @@ awards:
     date: '2023-11-25'
     awarder: Chinese Association for Artificial Intelligence (CAAI)
     summary: |
-      Contribution Award (Top 5%). Developed an adaptive cruise controller in the Virtual Test Drive simulation platform, combining Dynamic Window Approach and fuzzy-PID control. The controller kept lateral acceleration RMS below 0.1 m/s^2 and longitudinal acceleration RMS below 0.06 m/s^2.
+      Contribution Award (Top 5%). Developed an adaptive cruise controller in the Virtual Test Drive simulation platform, combining Dynamic Window Approach and fuzzy-PID control. The controller kept lateral acceleration RMS below 0.1 m/s<sup>2</sup> and longitudinal acceleration RMS below 0.06 m/s<sup>2</sup>.
   - title: Autopilot Challenge of the Vehicle-Road-Cloud Integration 2024
     date: '2024-06-01'
     awarder: China Association of Automobile Manufacturers
