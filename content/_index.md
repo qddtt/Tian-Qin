@@ -11,9 +11,9 @@ sections:
     content:
       username: admin
       text: |-
-        I am an M.Sc. student in Control Science and Engineering at China University of Mining and Technology, Beijing. My work connects **model-based control**, **trajectory tracking**, and field experience in autonomous mining-truck systems.
+        I am a control and autonomous-systems researcher with an M.Sc. in Control Science and Engineering from China University of Mining and Technology, Beijing. My work connects **model-based control**, **trajectory tracking**, **vehicle model calibration**, and field experience in autonomous mining-truck systems.
 
-        I am preparing for PhD study in **reinforcement learning**, **learning-based control**, and **data-driven autonomy**, with an interest in methods that remain reliable under payload, terrain, and safety constraints.
+        I am preparing for PhD study in **reinforcement learning**, **learning-based control**, and **data-driven autonomy**, with an interest in methods that remain reliable under payload variation, mine-road conditions, and safety constraints.
     design:
       biography:
         style: 'text-align: left;'
@@ -23,13 +23,13 @@ sections:
       title: Research Focus
       text: |-
         <div class="academic-brief">
-          <p class="academic-lead">I study control and autonomy for heavy-duty vehicles operating in unstructured, safety-critical environments. My current work is grounded in model-based control, trajectory tracking, and field experience with unmanned mining trucks.</p>
+          <p class="academic-lead">I study control and autonomy for heavy-duty vehicles operating in unstructured, safety-critical environments. My current work is grounded in model-based control, vehicle dynamics, trajectory tracking, model calibration, and field experience with unmanned mining trucks.</p>
 
           <div class="research-thread">
             <article>
               <span>Foundation</span>
               <h3>Model-Based Control</h3>
-              <p>MPC, LQR, fuzzy-PID, vehicle dynamics, constraint handling, and trajectory tracking for autonomous vehicles.</p>
+              <p>MPC, LQR, fuzzy-PID, vehicle dynamics, model calibration, parameter identification, and trajectory tracking for autonomous vehicles.</p>
             </article>
             <article>
               <span>Application Context</span>
@@ -39,7 +39,7 @@ sections:
             <article>
               <span>PhD Direction</span>
               <h3>Learning-Based Autonomy</h3>
-              <p>Reinforcement learning and data-driven control methods that preserve reliability, interpretability, and deployment awareness.</p>
+              <p>Reinforcement learning and data-driven control methods that preserve reliability, interpretability, and deployment awareness in safety-critical systems.</p>
             </article>
           </div>
         </div>
@@ -55,7 +55,7 @@ sections:
             <div class="publication-year">2026</div>
             <div>
               <p><strong>Qin T</strong>, Zhu D, Wang C, et al. <em>Dual-Loop Fuzzy-PID Acceleration Tracking Controller for Autonomous Mining Trucks under Variable Payload Conditions</em>.</p>
-              <p class="publication-meta">Coal Engineering, in press. Focus: variable-payload acceleration tracking for low-speed unmanned mining trucks.</p>
+              <p class="publication-meta">Coal Engineering, accepted. Focus: variable-payload acceleration tracking; maximum speed error 0.49 km/h and maximum acceleration error 0.103 m/s^2.</p>
             </div>
           </article>
 
@@ -63,7 +63,15 @@ sections:
             <div class="publication-year">2025</div>
             <div>
               <p>Wang C, Zhu D, <strong>Qin T</strong>, et al. <em>Lateral Trajectory Tracking of Autonomous Mining Trucks Using MPC with Adaptive Load Compensation</em>.</p>
-              <p class="publication-meta">CCC 2025, IEEE. Focus: MPC-based trajectory tracking under load variation.</p>
+              <p class="publication-meta">CCC 2025, IEEE. Focus: load-adaptive MPC in Simulink/TruckSim; full-load lateral MAE reduced by 33.33% compared with LQR.</p>
+            </div>
+          </article>
+
+          <article class="publication-item">
+            <div class="publication-year">2025</div>
+            <div>
+              <p>Yang P, Zhu D, <strong>Qin T</strong>, et al. <em>Adaptive Heading Tracking Algorithm Based on Vehicle Dynamics Model</em>.</p>
+              <p class="publication-meta">CCC 2025, IEEE. Focus: heading-corrected pure pursuit with vehicle-dynamics modeling; average lateral error decreased from 0.462 m to 0.237 m.</p>
             </div>
           </article>
 
@@ -71,7 +79,7 @@ sections:
             <div class="publication-year">2024</div>
             <div>
               <p><strong>Qin T</strong>, Qiu L, Chen J, et al. <em>Double-Layer Following Controller for Autonomous Vehicles</em>.</p>
-              <p class="publication-meta">CCDC 2024, IEEE, pp. 908-913. Focus: planning-control integration and comfort-aware following control.</p>
+              <p class="publication-meta">CCDC 2024, IEEE, pp. 908-913. Focus: DWA local planning with fuzzy-adaptive PID; lateral and longitudinal acceleration RMS improved by 19.5% and 37.3%.</p>
             </div>
           </article>
         </div>
@@ -86,14 +94,19 @@ sections:
       text: |-
         <div class="project-list">
           <article class="project-item">
+            <h3>Autonomous Transportation and Loading/Unloading System for Large Open-Pit Mine Robots</h3>
+            <p>National Key Research and Development Program work on low-speed unmanned mining-truck control, including adaptive/fuzzy-PID longitudinal control and load-adaptive MPC for lateral trajectory tracking.</p>
+          </article>
+
+          <article class="project-item">
             <h3>rbMPC-truck</h3>
             <p>Reproduction and migration of MPC algorithms for autonomous mining-truck trajectory tracking, with emphasis on controller comparison and code-level understanding.</p>
             <p><a href="https://github.com/qddtt/rbMPC-truck">GitHub repository</a></p>
           </article>
 
           <article class="project-item">
-            <h3>Unmanned Mining Truck Control System</h3>
-            <p>PLC-based controller design, redundancy logic, safety-critical signal handling, and fault diagnosis from field engineering work before graduate study.</p>
+            <h3>Field Calibration and Safety Control for Autonomous Mining Trucks</h3>
+            <p>Vehicle-response parameter calibration, longitudinal speed/braking validation, and remote safety-control strategies for autonomous mining-truck operation under slopes, payload changes, and mine-road variation.</p>
           </article>
 
           <article class="project-item">

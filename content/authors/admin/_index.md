@@ -6,15 +6,15 @@ last_name: Qin
 
 superuser: true
 
-role: M.Sc. Student in Control Science and Engineering
+role: Control Algorithm Engineer | Prospective PhD Applicant
 
 organizations:
   - name: China University of Mining and Technology, Beijing
     url: https://www.cumtb.edu.cn/
-  - name: Intelligent Energy and Autonomous Mining Lab
+  - name: Lab of Intelligent Energy System and Autonomous Mining
     url: ''
 
-bio: I work on control and autonomy for heavy-duty vehicles, with a foundation in MPC, fuzzy-PID control, trajectory tracking, and field-deployed unmanned mining truck systems. My PhD direction is learning-based and data-driven control for autonomous systems in complex environments.
+bio: I work on control and autonomy for heavy-duty vehicles, with a foundation in MPC, fuzzy-PID control, vehicle dynamics, model calibration, trajectory tracking, and field-deployed unmanned mining truck systems. My PhD direction is learning-based and data-driven control for safety-critical autonomous systems.
 
 profiles:
   - icon: at-symbol
@@ -28,12 +28,13 @@ education:
   - area: M.Sc. in Control Science and Engineering
     institution: China University of Mining and Technology, Beijing (211)
     date_start: 2023-09-01
-    date_end: ''
+    date_end: 2025-09-01
     summary: |
-      GPA: 3.6/4.0
+      GPA: 3.59/4.0
       Supervisor: Prof. Kehu Yang
-      Research focus: Model Predictive Control, autonomous mining trucks, trajectory tracking, and robust control under variable payload conditions
-      State stipend for two years
+      Lab: Lab of Intelligent Energy System and Autonomous Mining
+      Coursework: Linear System Theory (96), Adaptive Control (94), Advanced Signal Processing (93)
+      Research focus: Model Predictive Control, autonomous mining trucks, trajectory tracking, model calibration, and robust control under variable payload conditions
 
   - area: B.Eng. in Electronic and Information Engineering
     institution: Sichuan University (985)
@@ -44,16 +45,27 @@ education:
       Second-class Academic Scholarship of Sichuan University
 
 work:
-  - position: Hardware Engineer
-    company_name: China Aerospace Science and Industry Corporation Limited (CASIC)
+  - position: Control Algorithm Engineer
+    company_name: Mindway Science and Technology Co., Ltd.
     company_url: ''
     company_logo: ''
-    date_start: 2019-10-01
-    date_end: 2023-09-01
+    date_start: 2025-10-01
+    date_end: ''
     summary: |
-      - Designed and implemented control systems for unmanned mining trucks
-      - Developed PLC-based controller and redundancy logic for safety-critical vehicle operation
-      - Supported reliable operation of 165+ unmanned mining trucks and resolved field issues including communication disconnections and controller malfunctions
+      - Calibrated vehicle-response parameters from field data for lateral lane tracking across mine-road curvature and surface variation
+      - Supported model-parameter tuning and controller validation for longitudinal speed and braking across slopes, payload changes, and mine-road conditions
+      - Built remote safety-control strategies covering fault diagnosis, emergency shutdown, and operational interlocking for autonomous mining-truck operation
+
+  - position: Hardware Engineer
+    company_name: China Aerospace Science and Industry Corporation (CASIC)
+    company_url: ''
+    company_logo: ''
+    date_start: 2019-07-01
+    date_end: 2023-08-01
+    summary: |
+      - Participated in mine-site intelligent transformation work for unmanned mining-truck systems, with exposure to large-fleet deployment requirements
+      - Designed PLC controllers and safety-redundancy systems for industrial vehicle-control applications
+      - Supported on-site vehicle testing and troubleshooting, including communication-disconnection and integration issues
       - Built engineering intuition for autonomy under payload variation, terrain uncertainty, and safety constraints
 
 skills:
@@ -75,6 +87,10 @@ skills:
         description: Control simulation, vehicle dynamics modeling, and rapid prototyping
         percent: 80
         icon: devicon/matlab
+      - name: Model Calibration
+        description: Vehicle response modeling, parameter identification, and field-data-based tuning
+        percent: 80
+        icon: hero/adjustments-horizontal
       - name: Python
         description: Scientific computing, experiment analysis, and algorithm prototyping
         percent: 85
@@ -101,7 +117,7 @@ skills:
 languages:
   - name: Chinese
     percent: 100
-  - name: English (IELTS 6.5)
+  - name: English (IELTS 6.5; Reading 8.0)
     percent: 75
 
 awards:
@@ -109,21 +125,21 @@ awards:
     date: '2023-11-25'
     awarder: Chinese Association for Artificial Intelligence (CAAI)
     summary: |
-      Developed an adaptive cruise controller in the Virtual Test Drive simulation platform, combining Dynamic Window Approach and fuzzy-PID control. The controller achieved lateral acceleration RMS below 0.1 m/s² and longitudinal acceleration RMS below 0.06 m/s².
+      Contribution Award (Top 5%). Developed an adaptive cruise controller in the Virtual Test Drive simulation platform, combining Dynamic Window Approach and fuzzy-PID control. The controller kept lateral acceleration RMS below 0.1 m/s^2 and longitudinal acceleration RMS below 0.06 m/s^2.
   - title: Autopilot Challenge of the Vehicle-Road-Cloud Integration 2024
     date: '2024-06-01'
     awarder: China Association of Automobile Manufacturers
     summary: |
-      Integrated an LQR controller on a real autonomous vehicle platform for parking, obstacle avoidance, lane-changing, and U-turn tasks. Ranked 7th among 118 teams.
+      Innovation Award (Top 5%, ranked 7th of 118 teams). Integrated an LQR controller on a real autonomous vehicle platform for parking, obstacle avoidance, lane-changing, and U-turn tasks.
   - title: National Post-Graduate Mathematical Contest in Modeling
     date: '2024-09-21'
     awarder: China Academic Degrees and Graduate Education Development Center
     summary: |
-      Built a multi-physics field coupling model for magnetic components and optimized model parameters using particle swarm optimization, improving model accuracy by 5%.
+      Participation Award (Top 20%). Built a multi-physics field coupling model for magnetic components and optimized Steinmetz-equation fitting, improving model accuracy by 5%.
 ---
 
-I am an M.Sc. student in Control Science and Engineering at China University of Mining and Technology, Beijing. My research focuses on Model Predictive Control (MPC), fuzzy-PID control, and trajectory tracking for autonomous mining trucks in unstructured open-pit environments.
+I am a control and autonomous-systems researcher with an M.Sc. in Control Science and Engineering from China University of Mining and Technology, Beijing. My research focuses on Model Predictive Control (MPC), fuzzy-PID control, vehicle dynamics, model calibration, and trajectory tracking for autonomous mining trucks in unstructured open-pit environments.
 
-Before graduate study, I worked for four years at CASIC as a hardware engineer, where I designed and supported safety-critical control systems for unmanned mining trucks. That field experience shapes my research taste: I care about autonomy methods that remain reliable when payload, terrain, and safety constraints interact in the real world.
+Before and after graduate study, I have worked on deployment-facing control problems for autonomous mining trucks, from PLC-based redundancy and safety systems at CASIC to vehicle-response calibration, controller validation, and remote safety-control strategies at Mindway. That field experience shapes my research taste: I care about autonomy methods that remain reliable when payload, terrain, model mismatch, and safety constraints interact in the real world.
 
 For PhD study, I hope to extend this control foundation toward reinforcement learning, learning-based control, and data-driven methods for autonomous systems. My goal is to connect model-based reliability with adaptive learning methods for complex robotic and vehicle systems.
