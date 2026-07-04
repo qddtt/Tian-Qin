@@ -3,8 +3,8 @@
 # Documentation: https://docs.hugoblox.com/
 
 appearance:
-  mode: system
-  color: indigo
+  mode: light
+  color: blue
 
 marketing:
   seo:
@@ -29,7 +29,7 @@ header:
     blox: navbar
     align: right
     show_search: false
-    show_theme_chooser: true
+    show_theme_chooser: false
     show_translations: false
     logo:
       text: 'Qin Tian'

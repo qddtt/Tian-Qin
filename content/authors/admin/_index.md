@@ -11,8 +11,8 @@ role: M.Sc. Student in Control Science and Engineering
 organizations:
   - name: China University of Mining and Technology, Beijing
     url: https://www.cumtb.edu.cn/
-  - name: Lab of Intelligent Energy System and Autonomous Mining
-    url: https://www.researchgate.net/lab/Lab-of-Intelligent-Energy-System-and-Autonomous-Mining-Kehu-Yang
+  - name: Intelligent Energy and Autonomous Mining Lab
+    url: ''
 
 bio: I work on control and autonomy for heavy-duty vehicles, with a foundation in MPC, fuzzy-PID control, trajectory tracking, and field-deployed unmanned mining truck systems. My PhD direction is learning-based and data-driven control for autonomous systems in complex environments.
 
@@ -23,9 +23,6 @@ profiles:
   - icon: brands/github
     url: https://github.com/qddtt
     label: GitHub
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/in/qin-tian-905845352/
-    label: LinkedIn
 
 education:
   - area: M.Sc. in Control Science and Engineering
@@ -125,8 +122,8 @@ awards:
       Built a multi-physics field coupling model for magnetic components and optimized model parameters using particle swarm optimization, improving model accuracy by 5%.
 ---
 
-I am an M.Sc. student in Control Science and Engineering at China University of Mining and Technology, Beijing. My current research focuses on Model Predictive Control (MPC), fuzzy-PID control, and trajectory tracking for autonomous mining trucks in unstructured open-pit environments.
+I am an M.Sc. student in Control Science and Engineering at China University of Mining and Technology, Beijing. My research focuses on Model Predictive Control (MPC), fuzzy-PID control, and trajectory tracking for autonomous mining trucks in unstructured open-pit environments.
 
-Before graduate study, I worked for four years at CASIC as a hardware engineer, where I designed and deployed safety-critical control systems for 165+ unmanned mining trucks. That field experience shapes my research taste: I care about autonomy methods that remain reliable when payload, terrain, and safety constraints interact in the real world.
+Before graduate study, I worked for four years at CASIC as a hardware engineer, where I designed and supported safety-critical control systems for unmanned mining trucks. That field experience shapes my research taste: I care about autonomy methods that remain reliable when payload, terrain, and safety constraints interact in the real world.
 
 For PhD study, I hope to extend this control foundation toward reinforcement learning, learning-based control, and data-driven methods for autonomous systems. My goal is to connect model-based reliability with adaptive learning methods for complex robotic and vehicle systems.

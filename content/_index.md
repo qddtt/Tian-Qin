@@ -4,41 +4,46 @@ date: 2026-06-27
 type: landing
 
 design:
-  spacing: '4.5rem'
+  spacing: '3rem'
 
 sections:
   - block: biography
     content:
       username: admin
+      text: |-
+        I am an M.Sc. student in Control Science and Engineering at China University of Mining and Technology, Beijing. My work connects **model-based control**, **trajectory tracking**, and field experience in autonomous mining-truck systems.
+
+        I am preparing for PhD study in **reinforcement learning**, **learning-based control**, and **data-driven autonomy**, with an interest in methods that remain reliable under payload, terrain, and safety constraints.
       button:
         text: Download CV
-        url: uploads/cv-qin-tian.pdf
+        url: /uploads/cv-qin-tian.pdf
     design:
-      banner:
-        filename: kalen-emsley-Bkci_8qcdvQ-unsplash.jpg
       biography:
-        style: 'text-align: justify; font-size: 0.95em;'
+        style: 'text-align: left;'
 
   - block: markdown
     content:
-      title: Research Arc
+      title: Research Focus
       text: |-
-        I study control and autonomy for heavy-duty vehicles operating in complex, unstructured environments. My current work is grounded in **Model Predictive Control (MPC)**, fuzzy-PID control, trajectory tracking, and field-deployed unmanned mining truck systems.
+        <div class="academic-brief">
+          <p class="academic-lead">I study control and autonomy for heavy-duty vehicles operating in unstructured, safety-critical environments. My current work is grounded in model-based control, trajectory tracking, and field experience with unmanned mining trucks.</p>
 
-        My PhD goal is to extend this foundation toward **reinforcement learning**, **learning-based control**, and **data-driven autonomy**. I am especially interested in methods that combine the reliability of model-based control with the adaptability of learning methods under payload variation, terrain uncertainty, and safety constraints.
-
-        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1rem;margin-top:1.25rem;">
-          <div style="border:1px solid rgba(148,163,184,.35);border-radius:8px;padding:1rem;">
-            <strong>Control Foundation</strong><br>
-            <span style="font-size:.9rem;">MPC, LQR, fuzzy-PID, trajectory tracking, and vehicle dynamics modeling.</span>
-          </div>
-          <div style="border:1px solid rgba(148,163,184,.35);border-radius:8px;padding:1rem;">
-            <strong>Field Context</strong><br>
-            <span style="font-size:.9rem;">Autonomous mining trucks, variable payloads, steep grades, loose terrain, and safety-critical deployment.</span>
-          </div>
-          <div style="border:1px solid rgba(148,163,184,.35);border-radius:8px;padding:1rem;">
-            <strong>PhD Direction</strong><br>
-            <span style="font-size:.9rem;">Learning-based and data-driven control for robust autonomous systems.</span>
+          <div class="research-thread">
+            <article>
+              <span>Foundation</span>
+              <h3>Model-Based Control</h3>
+              <p>MPC, LQR, fuzzy-PID, vehicle dynamics, constraint handling, and trajectory tracking for autonomous vehicles.</p>
+            </article>
+            <article>
+              <span>Application Context</span>
+              <h3>Autonomous Mining Trucks</h3>
+              <p>Heavy-duty autonomy under payload variation, loose terrain, steep grades, communication limits, and safety requirements.</p>
+            </article>
+            <article>
+              <span>PhD Direction</span>
+              <h3>Learning-Based Autonomy</h3>
+              <p>Reinforcement learning and data-driven control methods that preserve reliability, interpretability, and deployment awareness.</p>
+            </article>
           </div>
         </div>
     design:
@@ -48,19 +53,33 @@ sections:
     content:
       title: Selected Publications
       text: |-
-        **Journal**
+        <div class="publication-list">
+          <article class="publication-item">
+            <div class="publication-year">2026</div>
+            <div>
+              <p><strong>Qin T</strong>, Zhu D, Wang C, et al. <em>Dual-Loop Fuzzy-PID Acceleration Tracking Controller for Autonomous Mining Trucks under Variable Payload Conditions</em>.</p>
+              <p class="publication-meta">Coal Engineering, in press. Focus: variable-payload acceleration tracking for low-speed unmanned mining trucks.</p>
+            </div>
+          </article>
 
-        **Qin T**, Zhu D, Wang C, et al. *Dual-Loop Fuzzy-PID Acceleration Tracking Controller for Autonomous Mining Trucks under Variable Payload Conditions*. **Coal Engineering**, 2026 (in press).
+          <article class="publication-item">
+            <div class="publication-year">2025</div>
+            <div>
+              <p>Wang C, Zhu D, <strong>Qin T</strong>, et al. <em>Lateral Trajectory Tracking of Autonomous Mining Trucks Using MPC with Adaptive Load Compensation</em>.</p>
+              <p class="publication-meta">CCC 2025, IEEE. Focus: MPC-based trajectory tracking under load variation.</p>
+            </div>
+          </article>
 
-        **Conference**
+          <article class="publication-item">
+            <div class="publication-year">2024</div>
+            <div>
+              <p><strong>Qin T</strong>, Qiu L, Chen J, et al. <em>Double-Layer Following Controller for Autonomous Vehicles</em>.</p>
+              <p class="publication-meta">CCDC 2024, IEEE, pp. 908-913. Focus: planning-control integration and comfort-aware following control.</p>
+            </div>
+          </article>
+        </div>
 
-        **Qin T**, Qiu L, Chen J, et al. *Double-Layer Following Controller for Autonomous Vehicles*. **CCDC 2024**, IEEE, pp. 908-913.
-
-        Wang C, Zhu D, **Qin T**, et al. *Lateral Trajectory Tracking of Autonomous Mining Trucks Using MPC with Adaptive Load Compensation*. **CCC 2025**, IEEE.
-
-        Yang P, Zhu D, **Qin T**, et al. *Adaptive Heading Tracking Algorithm Based on Vehicle Dynamics Model*. **CCC 2025**, IEEE.
-
-        [View all publications](/publications/)
+        <p class="section-link"><a href="/publications/">View all publications</a></p>
     design:
       columns: '1'
 
@@ -68,43 +87,31 @@ sections:
     content:
       title: Selected Projects
       text: |-
-        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1rem;">
-          <div style="border:1px solid rgba(148,163,184,.35);border-radius:8px;padding:1rem;">
-            <strong>rbMPC-truck</strong><br>
-            <span style="font-size:.9rem;">Reproduction and migration of MPC algorithms for autonomous mining truck trajectory tracking.</span><br>
-            <a href="https://github.com/qddtt/rbMPC-truck">github.com/qddtt/rbMPC-truck</a>
-          </div>
-          <div style="border:1px solid rgba(148,163,184,.35);border-radius:8px;padding:1rem;">
-            <strong>Unmanned Mining Truck Control System</strong><br>
-            <span style="font-size:.9rem;">PLC-based controller and redundancy logic supporting 165+ unmanned mining trucks in field operation.</span>
-          </div>
-          <div style="border:1px solid rgba(148,163,184,.35);border-radius:8px;padding:1rem;">
-            <strong>Vehicle-Road-Cloud Autopilot Challenge</strong><br>
-            <span style="font-size:.9rem;">LQR controller integration on a real autonomous vehicle platform; ranked 7th among 118 teams.</span>
-          </div>
+        <div class="project-list">
+          <article class="project-item">
+            <h3>rbMPC-truck</h3>
+            <p>Reproduction and migration of MPC algorithms for autonomous mining-truck trajectory tracking, with emphasis on controller comparison and code-level understanding.</p>
+            <p><a href="https://github.com/qddtt/rbMPC-truck">GitHub repository</a></p>
+          </article>
+
+          <article class="project-item">
+            <h3>Unmanned Mining Truck Control System</h3>
+            <p>PLC-based controller design, redundancy logic, safety-critical signal handling, and fault diagnosis from field engineering work before graduate study.</p>
+          </article>
+
+          <article class="project-item">
+            <h3>Vehicle-Road-Cloud Autopilot Challenge</h3>
+            <p>LQR controller integration on a real autonomous vehicle platform for parking, obstacle avoidance, lane changing, and U-turn scenarios; ranked 7th among 118 teams.</p>
+          </article>
         </div>
 
-        [View all projects](/projects/)
-    design:
-      columns: '1'
-
-  - block: markdown
-    content:
-      title: Research Notes
-      text: |-
-        I use the notes section for selected, public-facing research reflections that connect my control background with learning-based methods.
-
-        - MPC to learning-based control roadmap
-        - Reinforcement learning foundations for control researchers
-        - Field robotics questions from autonomous mining truck deployment
-
-        [Read selected notes](/notes/)
+        <p class="section-link"><a href="/projects/">View all projects</a></p>
     design:
       columns: '1'
 
   - block: experience
     content:
-      title: Experience
+      title: Education and Experience
       username: admin
     design:
       date_format: 'January 2006'
@@ -115,8 +122,14 @@ sections:
       title: Awards
       username: admin
 
-  - block: languages
+  - block: markdown
     content:
-      title: Languages
-      username: admin
+      title: Research Notes
+      text: |-
+        <div class="notes-preview">
+          <p>I keep selected public notes on the transition from classical control to learning-based autonomy. The notes are intentionally concise and application-facing.</p>
+          <p class="section-link"><a href="/notes/">Read selected notes</a></p>
+        </div>
+    design:
+      columns: '1'
 ---

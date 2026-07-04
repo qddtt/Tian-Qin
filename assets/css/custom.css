@@ -1,0 +1,513 @@
+:root {
+  --academic-bg: #f7f9fc;
+  --academic-surface: #ffffff;
+  --academic-ink: #172033;
+  --academic-muted: #5c6878;
+  --academic-soft: #eef3f8;
+  --academic-line: #d9e2ec;
+  --academic-blue: #1d4f91;
+  --academic-teal: #0f766e;
+  --academic-rust: #8a4a28;
+}
+
+html {
+  background: var(--academic-bg);
+}
+
+body {
+  background: var(--academic-bg);
+  color: var(--academic-ink);
+}
+
+.page-header {
+  border-bottom: 1px solid var(--academic-line);
+  background: rgba(255, 255, 255, 0.96);
+}
+
+.header {
+  background: transparent;
+}
+
+.navbar {
+  min-height: 68px;
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.navbar-brand {
+  color: var(--academic-ink);
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.navbar-nav a,
+.navbar-nav .nav-link {
+  color: var(--academic-muted);
+  font-size: 0.92rem;
+  font-weight: 500;
+}
+
+.navbar-nav a:hover,
+.navbar-nav .active {
+  color: var(--academic-blue);
+}
+
+.navbar a[href$='cv-qin-tian.pdf'] {
+  border-radius: 6px;
+  border-color: rgba(29, 79, 145, 0.28);
+  color: var(--academic-blue);
+  background: #fff;
+}
+
+.navbar a[href$='cv-qin-tian.pdf']:hover {
+  border-color: rgba(29, 79, 145, 0.5);
+  background: #f5f8fc;
+}
+
+.hbb-section {
+  padding: 3rem 0 !important;
+}
+
+.blox-resume-biography {
+  background: var(--academic-surface);
+  border-bottom: 1px solid var(--academic-line);
+  padding-top: 2.65rem !important;
+  padding-bottom: 2.55rem !important;
+}
+
+#profile.resume-biography {
+  display: grid !important;
+  grid-template-columns: 220px minmax(0, 1fr);
+  align-items: start !important;
+  justify-content: initial !important;
+  gap: 0.75rem 3.25rem;
+  width: 100%;
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  text-align: left;
+}
+
+#profile > .avatar-wrapper {
+  grid-column: 1;
+  justify-self: start;
+  margin-top: 0 !important;
+}
+
+#profile .avatar {
+  width: 122px;
+  height: 122px;
+  border: 1px solid var(--academic-line);
+  box-shadow: none;
+}
+
+#profile > .text-3xl {
+  grid-column: 1;
+  margin: 0.9rem 0 0.2rem;
+  color: var(--academic-ink);
+  font-size: 1.55rem;
+  line-height: 1.15;
+}
+
+#profile > h3 {
+  grid-column: 1;
+  margin: 0 0 0.55rem;
+  color: #374151;
+  font-size: 0.95rem;
+  font-weight: 600;
+  line-height: 1.45;
+}
+
+#profile > .mb-2 {
+  grid-column: 1;
+  margin-bottom: 0.45rem;
+  color: var(--academic-muted);
+  font-size: 0.92rem;
+  line-height: 1.45;
+}
+
+#profile .network-icon {
+  grid-column: 1;
+  justify-content: flex-start;
+  gap: 0.8rem;
+  margin: 0.65rem 0 0.25rem;
+}
+
+#profile .network-icon a {
+  color: var(--academic-blue);
+}
+
+#profile > .prose {
+  grid-column: 2;
+  grid-row: 1 / span 8;
+  width: 100%;
+  max-width: none;
+  padding-top: 0;
+}
+
+#profile .bio-text {
+  max-width: 68ch;
+  color: #2d3748;
+  font-size: 1rem;
+  line-height: 1.78;
+}
+
+#profile .bio-text p {
+  margin-top: 0;
+  margin-bottom: 0.9rem;
+}
+
+#profile > a.inline-flex {
+  grid-column: 1;
+  justify-self: start;
+  margin-top: 0.55rem;
+  border-radius: 6px;
+  border-color: rgba(29, 79, 145, 0.28);
+  color: var(--academic-blue);
+  background: #fff;
+}
+
+.blox-markdown .max-w-prose,
+.blox-resume-experience .max-w-prose,
+.blox-resume-awards .max-w-prose,
+.blox-resume-languages .max-w-prose {
+  max-width: 1040px;
+}
+
+.blox-markdown .prose {
+  max-width: 1040px;
+  color: #2d3748;
+  font-size: 1rem;
+  line-height: 1.72;
+}
+
+.blox-markdown .mb-6.text-3xl,
+.blox-resume-experience h3.mb-6,
+.blox-resume-awards h3.mb-6 {
+  position: relative;
+  width: 100%;
+  margin-bottom: 1.35rem;
+  padding-bottom: 0.65rem;
+  color: var(--academic-ink);
+  font-size: 1.45rem;
+  line-height: 1.25;
+  text-align: left;
+  border-bottom: 1px solid var(--academic-line);
+}
+
+.blox-markdown .mb-6.text-3xl::after,
+.blox-resume-experience h3.mb-6::after,
+.blox-resume-awards h3.mb-6::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 76px;
+  height: 2px;
+  background: var(--academic-blue);
+}
+
+.academic-brief,
+.notes-preview {
+  max-width: 920px;
+}
+
+.academic-lead {
+  margin-top: 0 !important;
+  color: #273449;
+  font-size: 1.05rem;
+  line-height: 1.75;
+}
+
+.research-thread,
+.project-list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 1.4rem;
+}
+
+.research-thread article,
+.project-item {
+  border: 1px solid var(--academic-line);
+  border-radius: 8px;
+  background: var(--academic-surface);
+  padding: 1.05rem 1.1rem;
+}
+
+.research-thread article:nth-child(2) {
+  border-top-color: rgba(15, 118, 110, 0.5);
+}
+
+.research-thread article:nth-child(3) {
+  border-top-color: rgba(138, 74, 40, 0.45);
+}
+
+.research-thread span {
+  display: block;
+  margin-bottom: 0.45rem;
+  color: var(--academic-muted);
+  font-size: 0.76rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.research-thread h3,
+.project-item h3 {
+  margin: 0 0 0.45rem !important;
+  color: var(--academic-ink);
+  font-size: 1rem !important;
+  line-height: 1.35 !important;
+}
+
+.research-thread p,
+.project-item p {
+  margin: 0 !important;
+  color: var(--academic-muted);
+  font-size: 0.93rem;
+  line-height: 1.62;
+}
+
+.project-item p + p {
+  margin-top: 0.75rem !important;
+}
+
+.publication-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.publication-item {
+  display: grid;
+  grid-template-columns: 5rem minmax(0, 1fr);
+  gap: 1rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--academic-line);
+}
+
+.publication-item:first-child {
+  padding-top: 0;
+}
+
+.publication-year {
+  color: var(--academic-blue);
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.publication-item p {
+  margin: 0 !important;
+}
+
+.publication-meta {
+  margin-top: 0.45rem !important;
+  color: var(--academic-muted);
+  font-size: 0.92rem;
+}
+
+.section-link {
+  margin-top: 1.15rem !important;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.section-link a::after {
+  content: " ->";
+}
+
+.blox-resume-experience,
+.blox-resume-awards {
+  background: #fbfcfe;
+}
+
+.blox-resume-experience ol,
+.blox-resume-awards ul {
+  border-color: var(--academic-line);
+}
+
+.blox-resume-experience .text-lg,
+.blox-resume-awards .text-lg {
+  color: var(--academic-ink);
+}
+
+.article-container,
+.prose.max-w-prose {
+  max-width: 900px;
+}
+
+.page-body.my-10 {
+  margin-top: 2.75rem;
+  margin-bottom: 3.25rem;
+}
+
+.page-body.my-10 > .max-w-prose {
+  width: 100%;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  box-sizing: border-box;
+}
+
+.page-body article.prose {
+  color: #2d3748;
+  font-size: 1.02rem;
+  line-height: 1.74;
+}
+
+.page-body article.prose > h1 {
+  margin-bottom: 1.35rem;
+  color: var(--academic-ink);
+  font-size: 2.8rem !important;
+  line-height: 1.12;
+}
+
+.prose h2 {
+  margin-top: 2.2rem;
+  padding-bottom: 0.45rem;
+  border-bottom: 1px solid var(--academic-line);
+  color: var(--academic-ink);
+  font-size: 1.35rem;
+}
+
+.prose h3 {
+  color: var(--academic-ink);
+}
+
+.prose strong {
+  color: var(--academic-ink);
+}
+
+.prose a {
+  color: var(--academic-blue);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+}
+
+footer {
+  border-top: 1px solid var(--academic-line);
+  background: #fff;
+}
+
+@media (max-width: 860px) {
+  #profile.resume-biography {
+    display: grid !important;
+    grid-template-columns: 96px minmax(0, 1fr);
+    align-items: start !important;
+    gap: 0.35rem 1rem;
+  }
+
+  #profile > .avatar-wrapper {
+    grid-column: 1;
+    grid-row: 1 / span 5;
+    justify-self: start;
+  }
+
+  #profile > .prose {
+    grid-column: 1 / -1;
+    grid-row: auto;
+    margin-top: 0.75rem;
+  }
+
+  #profile > .text-3xl,
+  #profile > h3,
+  #profile > .mb-2,
+  #profile .network-icon,
+  #profile > a.inline-flex {
+    grid-column: 2;
+  }
+
+  #profile > .text-3xl {
+    margin-top: 0;
+    font-size: 1rem;
+  }
+
+  #profile > h3 {
+    margin-bottom: 0.35rem;
+    font-size: 0.88rem;
+  }
+
+  #profile > .mb-2 {
+    margin-bottom: 0.25rem;
+    font-size: 0.84rem;
+    line-height: 1.35;
+  }
+
+  #profile .network-icon {
+    margin: 0.35rem 0 0;
+  }
+
+  #profile .avatar {
+    width: 92px;
+    height: 92px;
+  }
+
+  .research-thread,
+  .project-list {
+    grid-template-columns: 1fr;
+  }
+
+  .publication-item {
+    grid-template-columns: 1fr;
+    gap: 0.35rem;
+  }
+
+  .hbb-section {
+    padding: 2.15rem 0 !important;
+  }
+
+  .blox-resume-biography {
+    padding-top: 2.2rem !important;
+    padding-bottom: 2rem !important;
+  }
+
+  .page-body.my-10 {
+    margin-top: 2rem;
+  }
+
+  .page-body article.prose {
+    font-size: 1rem;
+  }
+
+  .page-body article.prose > h1 {
+    font-size: 2.1rem !important;
+  }
+}
+
+.dark body,
+.dark html {
+  background: #111827;
+}
+
+.dark .page-header,
+.dark .blox-resume-biography,
+.dark footer {
+  border-color: rgba(148, 163, 184, 0.28);
+  background: #111827;
+}
+
+.dark .research-thread article,
+.dark .project-item {
+  border-color: rgba(148, 163, 184, 0.28);
+  background: #172033;
+}
+
+.dark #profile .bio-text,
+.dark .blox-markdown .prose,
+.dark .research-thread p,
+.dark .project-item p,
+.dark .publication-meta {
+  color: #cbd5e1;
+}
+
+.dark .navbar-brand,
+.dark #profile > .text-3xl,
+.dark #profile > h3,
+.dark .blox-markdown .mb-6.text-3xl,
+.dark .blox-resume-experience h3.mb-6,
+.dark .blox-resume-awards h3.mb-6,
+.dark .research-thread h3,
+.dark .project-item h3,
+.dark .prose h2,
+.dark .prose h3,
+.dark .prose strong {
+  color: #f8fafc;
+}
