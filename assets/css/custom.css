@@ -28,8 +28,13 @@ body {
   background: transparent;
 }
 
+.page-header header {
+  box-shadow: none !important;
+  filter: none !important;
+}
+
 .navbar {
-  min-height: 68px;
+  min-height: 64px;
   max-width: 1120px;
   margin: 0 auto;
 }
@@ -183,7 +188,7 @@ body {
 
 .blox-markdown .mb-6.text-3xl,
 .blox-resume-experience h3.mb-6,
-.blox-resume-awards h3.mb-6 {
+.blox-resume-awards .mb-6.text-3xl {
   position: relative;
   width: 100%;
   margin-bottom: 1.35rem;
@@ -197,7 +202,7 @@ body {
 
 .blox-markdown .mb-6.text-3xl::after,
 .blox-resume-experience h3.mb-6::after,
-.blox-resume-awards h3.mb-6::after {
+.blox-resume-awards .mb-6.text-3xl::after {
   content: "";
   position: absolute;
   left: 0;
@@ -330,6 +335,47 @@ body {
   color: var(--academic-ink);
 }
 
+#section-resume-awards > .home-section-bg + div {
+  align-items: flex-start !important;
+  max-width: 1040px;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+#section-resume-awards .w-full.flex.flex-col.gap-6 {
+  gap: 0 !important;
+}
+
+#section-resume-awards .w-full.p-6 {
+  border-width: 0 0 1px !important;
+  border-color: var(--academic-line) !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  padding: 1rem 0 !important;
+}
+
+#section-resume-awards h5 {
+  margin-bottom: 0.35rem !important;
+  color: var(--academic-ink);
+  font-size: 1rem !important;
+  line-height: 1.45 !important;
+  letter-spacing: 0 !important;
+}
+
+#section-resume-awards .block.mb-3 {
+  margin-bottom: 0.45rem !important;
+  color: var(--academic-muted);
+}
+
+#section-resume-awards .prose {
+  max-width: 760px;
+  margin-bottom: 0 !important;
+  color: var(--academic-muted);
+  font-size: 0.94rem;
+  line-height: 1.6;
+}
+
 .article-container,
 .prose.max-w-prose {
   max-width: 900px;
@@ -385,6 +431,14 @@ body {
 footer {
   border-top: 1px solid var(--academic-line);
   background: #fff;
+}
+
+footer.container {
+  margin-top: 3rem;
+}
+
+footer .powered-by + .powered-by {
+  display: none;
 }
 
 @media (max-width: 860px) {
@@ -503,9 +557,10 @@ footer {
 .dark #profile > h3,
 .dark .blox-markdown .mb-6.text-3xl,
 .dark .blox-resume-experience h3.mb-6,
-.dark .blox-resume-awards h3.mb-6,
+.dark .blox-resume-awards .mb-6.text-3xl,
 .dark .research-thread h3,
 .dark .project-item h3,
+.dark #section-resume-awards h5,
 .dark .prose h2,
 .dark .prose h3,
 .dark .prose strong {

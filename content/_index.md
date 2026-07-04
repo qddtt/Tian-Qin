@@ -14,9 +14,6 @@ sections:
         I am an M.Sc. student in Control Science and Engineering at China University of Mining and Technology, Beijing. My work connects **model-based control**, **trajectory tracking**, and field experience in autonomous mining-truck systems.
 
         I am preparing for PhD study in **reinforcement learning**, **learning-based control**, and **data-driven autonomy**, with an interest in methods that remain reliable under payload, terrain, and safety constraints.
-      button:
-        text: Download CV
-        url: /uploads/cv-qin-tian.pdf
     design:
       biography:
         style: 'text-align: left;'
