@@ -1,39 +1,39 @@
 ---
 title: Publications
 date: 2026-06-27
-summary: Publications in autonomous vehicles, model predictive control, fuzzy-PID control, and autonomous mining trucks.
+summary: Publications in autonomous vehicles, model predictive control, adaptive/fuzzy PID control, and autonomous mining trucks.
 ---
 
-My publications focus on control algorithms for autonomous vehicles and mining trucks, especially under tracking accuracy, payload variation, vehicle dynamics, and robustness constraints.
+My publications focus on control algorithms for autonomous vehicles and mining trucks, especially under tracking accuracy, payload variation, vehicle dynamics, obstacle interaction, and robustness constraints.
 
 ## Journal
 
-**Qin T**, Zhu D, Wang C, Yang P, Yang K. *Dual-Loop Fuzzy-PID Acceleration Tracking Controller for Autonomous Mining Trucks under Variable Payload Conditions*. **Coal Engineering**, accepted.
+**Qin T**, Zhu D, Wang C, Yang P, Yang K. *Dual-Loop Fuzzy-PID Acceleration Tracking Controller for Autonomous Mining Trucks under Variable Payload Conditions*. **Coal Engineering**, 2025, 57(6): 172-179. DOI: [10.11799/ce202506022](https://doi.org/10.11799/ce202506022).
 
-- **Problem:** Longitudinal acceleration tracking becomes unstable when autonomous mining trucks operate under variable payload conditions.
-- **Method:** Dual-loop fuzzy-PID controller with self-adaptive compensation.
-- **Result:** Maximum speed error of 0.49 km/h and maximum acceleration error of 0.103 m/s<sup>2</sup>; peak-to-peak speed and acceleration errors improved by 8.77% and 13.30% compared with MPC.
-- **My contribution:** First-author work on variable-payload longitudinal control, including controller design, experiment analysis, and paper preparation.
+- **Problem:** Longitudinal dynamics change substantially between empty and full-load autonomous mining-truck operation.
+- **Method:** Dual-loop fuzzy-PID acceleration tracking controller with an outer speed-tracking loop, an inner acceleration-control loop, and online PID adjustment according to payload state.
+- **Result:** Stable speed and acceleration tracking under variable-payload conditions, with a maximum speed error of 0.49 km/h and a maximum acceleration error of 0.103 m/s<sup>2</sup>.
+- **My contribution:** First-author work on variable-payload longitudinal control, including controller design, simulation analysis, and paper preparation.
 
 ## Conference
 
-**Qin T**, Qiu L, Chen J, Fu H, Zhu D, Yang K. *Double-Layer Following Controller for Autonomous Vehicles*. **36th Chinese Control and Decision Conference (CCDC)**, IEEE, 2024, pp. 908-913.
+**Qin T**, Qiu L, Chen J, Fu H, Zhu D, Yang K. *Double-Layer Following Controller for Autonomous Vehicles*. **2024 36th Chinese Control and Decision Conference (CCDC)**, IEEE, 2024, pp. 908-913. DOI: [10.1109/CCDC62350.2024.10587700](https://doi.org/10.1109/CCDC62350.2024.10587700).
 
-- **Problem:** Following control needs to balance tracking accuracy and comfort in autonomous driving scenarios.
-- **Method:** Dynamic Window Approach combined with a fuzzy-adaptive PID controller.
-- **Result:** Lateral and longitudinal acceleration RMS improved by 19.5% and 37.3% compared with PID-Stanley.
-- **My contribution:** First-author two-layer following controller in ROS/VTD, including controller development, simulation evaluation, and manuscript writing.
+- **Problem:** Autonomous following needs to handle high-speed overtaking, sharp turns, and dynamic obstacle avoidance while maintaining safe distance and smoothness.
+- **Method:** Two-layer following-control framework combining DWA local planning with fuzzy-adaptive PID.
+- **Result:** The upper layer plans a safe local path from lane markings and target-vehicle information, while the lower layer adapts PID parameters online for lateral/longitudinal tracking.
+- **My contribution:** First-author controller design, ROS/VTD simulation evaluation, and manuscript writing.
 
-Wang C, Zhu D, **Qin T**, et al. *Lateral Trajectory Tracking of Autonomous Mining Trucks Using MPC with Adaptive Load Compensation*. **CCC 2025**, IEEE.
+Wang C, Zhu D, **Qin T**, Yang K. *Lateral Trajectory Tracking of Autonomous Mining Trucks Using MPC with Adaptive Load Compensation*. **2025 44th Chinese Control Conference (CCC)**, IEEE, 2025. DOI: [10.23919/CCC64809.2025.11178743](https://doi.org/10.23919/CCC64809.2025.11178743).
 
-- **Problem:** Lateral tracking performance degrades under large payload variation in mining truck operation.
-- **Method:** MPC with adaptive load compensation for trajectory tracking.
-- **Result:** Full-load lateral mean absolute error was reduced by 33.33% compared with LQR.
-- **My contribution:** Mining-truck control context and experiment support for load-adaptive MPC in Simulink/TruckSim.
+- **Problem:** Lateral trajectory tracking accuracy degrades on complex open-pit mine roads under payload variation.
+- **Method:** MPC strategy with adaptive load compensation and real-time vehicle-parameter updates for empty/full-load states.
+- **Result:** The controller optimizes control outputs to reduce the effect of payload fluctuation on prediction and trajectory tracking.
+- **My contribution:** Mining-truck control context, experiment support, and validation discussion for load-adaptive MPC.
 
-Yang P, Zhu D, **Qin T**, et al. *Adaptive Heading Tracking Algorithm Based on Vehicle Dynamics Model*. **CCC 2025**, IEEE.
+Yang P, Zhu D, **Qin T**, Yang K. *Adaptive Heading Tracking Algorithm Based on Vehicle Dynamics Model*. **2025 44th Chinese Control Conference (CCC)**, IEEE, 2025. DOI: [10.23919/CCC64809.2025.11179654](https://doi.org/10.23919/CCC64809.2025.11179654).
 
-- **Problem:** Pure pursuit tracking can lose precision when vehicle dynamics and heading response are not adequately modeled.
-- **Method:** Heading-corrected pure pursuit using a vehicle dynamics model.
+- **Problem:** Pure pursuit makes limited use of target-path heading information and can lose tracking accuracy on complex mine roads.
+- **Method:** Improved pure-pursuit algorithm with vehicle-dynamics feedback and heading correction.
 - **Result:** Average lateral error decreased from 0.462 m to 0.237 m in TruckSim/Simulink validation.
 - **My contribution:** Vehicle-dynamics control context and manuscript support.

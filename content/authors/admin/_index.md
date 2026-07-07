@@ -11,10 +11,10 @@ role: Control Algorithm Engineer
 organizations:
   - name: China University of Mining and Technology, Beijing
     url: https://www.cumtb.edu.cn/
-  - name: Lab of Intelligent Energy System and Autonomous Mining
+  - name: Intelligent Energy Systems and Autonomous Mining Laboratory
     url: ''
 
-bio: I work on control and autonomy for heavy-duty vehicles, with a foundation in MPC, fuzzy-PID control, vehicle dynamics, model calibration, trajectory tracking, and field-deployed unmanned mining truck systems. My PhD direction is learning-based and data-driven control for safety-critical autonomous systems.
+bio: I work on control and autonomy for heavy-duty vehicles, with a foundation in MPC, LQR, adaptive/fuzzy PID, vehicle dynamics modeling, parameter identification, trajectory tracking, and field-deployed autonomous mining-truck systems. My PhD direction is data-driven and reinforcement-learning-based control for safety-critical autonomous systems.
 
 profiles:
   - icon: at-symbol
@@ -25,24 +25,23 @@ profiles:
     label: GitHub
 
 education:
-  - area: M.Sc. in Control Science and Engineering
+  - area: M.S. in Control Science and Engineering
     institution: China University of Mining and Technology, Beijing (211)
     date_start: 2023-09-01
     date_end: 2025-09-01
     summary: |
       - GPA: 3.59/4.0
       - Supervisor: Prof. Kehu Yang
-      - Lab: Lab of Intelligent Energy System and Autonomous Mining
-      - Coursework: Linear System Theory (96), Adaptive Control (94), Advanced Signal Processing (93)
-      - Research focus: Model Predictive Control, autonomous mining trucks, trajectory tracking, model calibration, and robust control under variable payload conditions
+      - Lab: Intelligent Energy Systems and Autonomous Mining Laboratory
+      - Core coursework: Linear System Theory (96), Adaptive Control (94), Advanced Signal Processing (93)
+      - Research focus: MPC, adaptive/fuzzy PID, vehicle dynamics modeling, parameter identification, and autonomous mining trucks
 
-  - area: B.Eng. in Electronic and Information Engineering
+  - area: B.Eng. in Electronic Information Engineering
     institution: Sichuan University (985)
     date_start: 2015-09-01
     date_end: 2019-06-01
     summary: |
-      - GPA: 2.93/4.0
-      - Second-class Academic Scholarship of Sichuan University
+      - Core coursework: C Programming (91), Computer Communication and Networks (86), Communication Principles Laboratory (88), Analog Electronics, Signals and Systems
 
 work:
   - position: Control Algorithm Engineer
@@ -52,9 +51,9 @@ work:
     date_start: 2025-10-01
     date_end: ''
     summary: |
-      - Calibrated vehicle-response parameters from field data for lateral lane tracking across mine-road curvature and surface variation
-      - Supported model-parameter tuning and controller validation for longitudinal speed and braking across slopes, payload changes, and mine-road conditions
-      - Built remote safety-control strategies covering fault diagnosis, emergency shutdown, and operational interlocking for autonomous mining-truck operation
+      - Developed and deployed lateral/longitudinal control code for autonomous mining trucks, including LQR lateral control and dual-loop PID longitudinal control for path tracking, speed tracking, and braking
+      - Independently implemented AEB anti-collision logic using time-domain trajectory prediction and OBB detection for safety-critical mine-road scenarios
+      - Performed system identification from real-vehicle data for a two-degree-of-freedom vehicle dynamics model, supporting LQR tuning and vehicle validation
 
   - position: Hardware Engineer
     company_name: China Aerospace Science and Industry Corporation (CASIC)
@@ -63,10 +62,9 @@ work:
     date_start: 2019-07-01
     date_end: 2023-08-01
     summary: |
-      - Participated in mine-site intelligent transformation work for unmanned mining-truck systems, with exposure to large-fleet deployment requirements
-      - Designed PLC controllers and safety-redundancy systems for industrial vehicle-control applications
-      - Supported on-site vehicle testing and troubleshooting, including communication-disconnection and integration issues
-      - Built engineering intuition for autonomy under payload variation, terrain uncertainty, and safety constraints
+      - Participated in industrial-vehicle control-system calibration and on-site debugging, including engine-throttle calibration
+      - Coordinated joint debugging among vehicle controllers, sensors, and actuators; adjusted control parameters and interface configurations to resolve response lag and communication anomalies
+      - Supported on-site testing, data logging, and issue reproduction, feeding calibration results back into control-strategy and hardware-configuration iterations
 
 skills:
   - name: Control and Autonomy
@@ -88,7 +86,7 @@ skills:
         percent: 80
         icon: devicon/matlab
       - name: Model Calibration
-        description: Vehicle response modeling, parameter identification, and field-data-based tuning
+        description: Vehicle dynamics modeling, parameter identification, and real-vehicle data based tuning
         percent: 80
         icon: hero/adjustments-horizontal
       - name: Python
@@ -106,7 +104,7 @@ skills:
         percent: 95
         icon: hero/truck
       - name: Field Robotics
-        description: Robust autonomy under terrain, payload, and safety constraints
+        description: Robust autonomy under terrain, payload, obstacle, and safety constraints
         percent: 85
         icon: hero/cpu-chip
       - name: Learning-Based Control
@@ -125,21 +123,21 @@ awards:
     date: '2023-11-25'
     awarder: Chinese Association for Artificial Intelligence (CAAI)
     summary: |
-      Contribution Award (Top 5%). Developed an adaptive cruise controller in the Virtual Test Drive simulation platform, combining Dynamic Window Approach and fuzzy-PID control. The controller kept lateral acceleration RMS below 0.1 m/s<sup>2</sup> and longitudinal acceleration RMS below 0.06 m/s<sup>2</sup>.
+      Contribution Award (Top 5%). For adaptive cruise and following tasks, used DWA for local path planning and fuzzy PID for speed/acceleration tracking; lateral and longitudinal acceleration RMS values were below 0.10 m/s<sup>2</sup> and 0.06 m/s<sup>2</sup>.
   - title: Autopilot Challenge of the Vehicle-Road-Cloud Integration 2024
     date: '2024-06-01'
     awarder: China Association of Automobile Manufacturers
     summary: |
-      Innovation Award (Top 5%, ranked 7th of 118 teams). Integrated an LQR controller on a real autonomous vehicle platform for parking, obstacle avoidance, lane-changing, and U-turn tasks.
+      Innovation Award (Top 5%, ranked 7th among 118 teams). Integrated and tuned an LQR lateral controller on a real autonomous-driving platform for low-speed parking and obstacle-avoidance validation.
   - title: National Post-Graduate Mathematical Contest in Modeling
     date: '2024-09-21'
     awarder: China Academic Degrees and Graduate Education Development Center
     summary: |
-      Participation Award (Top 20%). Built a multi-physics field coupling model for magnetic components and optimized Steinmetz-equation fitting, improving model accuracy by 5%.
+      Participation Award (Top 20%). Fitted Steinmetz-equation parameters with nonlinear optimization, analyzed operating-condition variables, and improved magnetic-component loss model accuracy by 5%.
 ---
 
-I am a control and autonomous-systems researcher with an M.Sc. in Control Science and Engineering from China University of Mining and Technology, Beijing. My research focuses on Model Predictive Control (MPC), fuzzy-PID control, vehicle dynamics, model calibration, and trajectory tracking for autonomous mining trucks in unstructured open-pit environments.
+I am a control and autonomous-systems researcher with an M.S. in Control Science and Engineering from China University of Mining and Technology, Beijing. My research focuses on Model Predictive Control (MPC), adaptive/fuzzy PID, vehicle dynamics modeling, parameter identification, and trajectory tracking for autonomous mining trucks in unstructured open-pit environments.
 
-Before and after graduate study, I have worked on deployment-facing control problems for autonomous mining trucks, from PLC-based redundancy and safety systems at CASIC to vehicle-response calibration, controller validation, and remote safety-control strategies at Mindway. That field experience shapes my research taste: I care about autonomy methods that remain reliable when payload, terrain, model mismatch, and safety constraints interact in the real world.
+Before and after graduate study, I have worked on deployment-facing control problems for autonomous mining trucks, from industrial-vehicle calibration and on-site joint debugging at CASIC to LQR/PID controller deployment, AEB anti-collision logic, and real-vehicle system identification at Mindway. That field experience shapes my research taste: I care about autonomy methods that remain reliable when payload, terrain, model mismatch, obstacles, and safety constraints interact in the real world.
 
 For PhD study, I hope to extend this control foundation toward reinforcement learning, learning-based control, and data-driven methods for autonomous systems. My goal is to connect model-based reliability with adaptive learning methods for complex robotic and vehicle systems.

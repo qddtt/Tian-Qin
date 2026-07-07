@@ -11,7 +11,7 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: 'China University of Mining and Technology, Beijing'
-    description: 'Qin Tian works on control and autonomy for autonomous mining trucks, including MPC, fuzzy-PID, vehicle model calibration, trajectory tracking, and a PhD research direction toward reinforcement learning and data-driven control.'
+    description: 'Qin Tian works on control and autonomy for autonomous mining trucks, including MPC, LQR, adaptive/fuzzy PID, vehicle dynamics modeling, parameter identification, AEB safety logic, and data-driven control.'
     twitter: ''
   analytics:
     google_analytics: ''

@@ -8,13 +8,14 @@ This section is for selected public research notes. It does not mirror my privat
 
 ## MPC to Learning-Based Control Roadmap
 
-My current foundation is model-based: MPC, LQR, fuzzy-PID, vehicle dynamics, and trajectory tracking. The next research step is to study how learning can improve adaptation while preserving safety and interpretability.
+My current foundation is model-based: MPC, LQR, adaptive/fuzzy PID, vehicle dynamics modeling, parameter identification, and trajectory tracking. The next research step is to study how learning can improve adaptation while preserving safety and interpretability.
 
 Questions I am tracking:
 
 - How can reinforcement learning improve control policies under uncertain payload and terrain conditions?
 - How can model-based MPC provide structure or safety constraints for learning-based controllers?
 - How can data from field operation be used without overfitting to one vehicle, road, or mine scenario?
+- How can safety logic such as AEB be integrated with learning-enabled control without weakening deployment reliability?
 
 ## Reinforcement Learning Foundations for Control Researchers
 
