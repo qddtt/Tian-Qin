@@ -17,7 +17,7 @@ Questions I am tracking:
 - How can data from field operation be used without overfitting to one vehicle, road, or mine scenario?
 - How can safety logic such as AEB be integrated with learning-enabled control without weakening deployment reliability?
 
-## Reinforcement Learning Foundations for Control Researchers
+## Reinforcement Learning Foundations for Control Engineers
 
 I am studying reinforcement learning from a control perspective: Markov decision processes, value functions, policy gradients, dynamic programming, and stability-aware learning. My goal is not to replace control theory, but to understand where learning can help when modeling assumptions are incomplete.
 

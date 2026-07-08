@@ -11,7 +11,7 @@ sections:
     content:
       username: admin
       text: |-
-        I am a control and autonomous-systems researcher with an M.S. in Control Science and Engineering from China University of Mining and Technology, Beijing. My work connects **MPC/LQR control**, **adaptive/fuzzy PID**, **vehicle dynamics modeling**, **parameter identification**, and field experience in autonomous mining-truck systems.
+        I am a **Control Algorithm Engineer** working on autonomous mining-truck control systems, with an M.S. in Control Science and Engineering from China University of Mining and Technology, Beijing. My work connects **MPC/LQR control**, **adaptive/fuzzy PID**, **vehicle dynamics modeling**, **parameter identification**, and field experience in autonomous mining-truck systems.
 
         I am preparing for PhD study in **reinforcement learning**, **learning-based control**, and **data-driven autonomy**, with an interest in methods that remain reliable under payload variation, mine-road conditions, obstacle risk, and safety constraints.
     design:

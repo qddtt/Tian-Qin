@@ -136,7 +136,7 @@ awards:
       Participation Award (Top 20%). Fitted Steinmetz-equation parameters with nonlinear optimization, analyzed operating-condition variables, and improved magnetic-component loss model accuracy by 5%.
 ---
 
-I am a control and autonomous-systems researcher with an M.S. in Control Science and Engineering from China University of Mining and Technology, Beijing. My research focuses on Model Predictive Control (MPC), adaptive/fuzzy PID, vehicle dynamics modeling, parameter identification, and trajectory tracking for autonomous mining trucks in unstructured open-pit environments.
+I am a Control Algorithm Engineer working on autonomous mining-truck control systems, with an M.S. in Control Science and Engineering from China University of Mining and Technology, Beijing. My technical work focuses on Model Predictive Control (MPC), LQR, adaptive/fuzzy PID, vehicle dynamics modeling, parameter identification, and trajectory tracking for autonomous mining trucks in unstructured open-pit environments.
 
 Before and after graduate study, I have worked on deployment-facing control problems for autonomous mining trucks, from industrial-vehicle calibration and on-site joint debugging at CASIC to LQR/PID controller deployment, AEB anti-collision logic, and real-vehicle system identification at Mindway. That field experience shapes my research taste: I care about autonomy methods that remain reliable when payload, terrain, model mismatch, obstacles, and safety constraints interact in the real world.
 
