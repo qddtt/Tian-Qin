@@ -1,0 +1,49 @@
+{{- if eq hugo.Environment "production" -}}
+<script>
+(function () {
+  if (!window.navigator || navigator.doNotTrack === "1" || window.doNotTrack === "1") {
+    return;
+  }
+
+  var storageKey = "qt_site_visitor";
+  var visitorId = "";
+  try {
+    visitorId = window.localStorage.getItem(storageKey) || "";
+    if (!visitorId) {
+      visitorId = window.crypto && window.crypto.randomUUID
+        ? window.crypto.randomUUID()
+        : String(Date.now()) + "." + Math.random().toString(36).slice(2);
+      window.localStorage.setItem(storageKey, visitorId);
+    }
+  } catch (error) {
+    visitorId = String(Date.now()) + "." + Math.random().toString(36).slice(2);
+  }
+
+  var payload = {
+    path: window.location.pathname + window.location.search,
+    title: document.title || "",
+    referrer: document.referrer || "",
+    visitor_id: visitorId,
+    language: navigator.language || "",
+    screen_width: window.screen ? window.screen.width : 0
+  };
+  var body = JSON.stringify(payload);
+  var endpoint = "/api/analytics/collect";
+
+  if (navigator.sendBeacon) {
+    var blob = new Blob([body], { type: "application/json" });
+    if (navigator.sendBeacon(endpoint, blob)) {
+      return;
+    }
+  }
+
+  window.fetch(endpoint, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: body,
+    keepalive: true,
+    credentials: "omit"
+  }).catch(function () {});
+})();
+</script>
+{{- end -}}

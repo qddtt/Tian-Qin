@@ -1,0 +1,17 @@
+[Unit]
+Description=Qin Tian site analytics
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+EnvironmentFile=/etc/qin-site-analytics.env
+WorkingDirectory=/opt/qin-site-analytics
+ExecStart=/usr/bin/python3 /opt/qin-site-analytics/server.py
+Restart=always
+RestartSec=5
+User=www-data
+Group=www-data
+
+[Install]
+WantedBy=multi-user.target

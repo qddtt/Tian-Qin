@@ -3,3 +3,5 @@ public/
 hugo_stats.json
 .hugo_build.lock
 hugo-server*.log
+__pycache__/
+*.pyc
