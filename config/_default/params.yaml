@@ -30,7 +30,7 @@ header:
     align: right
     show_search: false
     show_theme_chooser: false
-    show_translations: false
+    show_translations: true
     logo:
       text: 'Qin Tian'
     button:

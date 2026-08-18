@@ -5,18 +5,40 @@
 # Default language
 en:
   languageCode: en-us
+  languageName: English
+  weight: 1
   # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
   #contentDir: content/en
 
-# Uncomment the lines below to configure your website in a second language.
-#zh:
-#  languageCode: zh-Hans
-#  contentDir: content/zh
-#  title: Chinese website title...
-#  params:
-#    description: Site description in Chinese...
-#  menu:
-#    main:
-#      - name: 传
-#        url: '#about'
-#        weight: 1
+zh:
+  languageCode: zh-Hans
+  languageName: 中文
+  title: 秦天 - 控制、自主与学习
+  weight: 2
+  params:
+    description: 秦天的个人网站，展示自动驾驶矿卡控制、MPC、LQR、自适应/模糊 PID、车辆动力学建模、参数辨识、AEB 安全逻辑与数据驱动控制相关工作。
+    marketing:
+      seo:
+        description: 秦天的个人网站，展示自动驾驶矿卡控制、MPC、LQR、自适应/模糊 PID、车辆动力学建模、参数辨识、AEB 安全逻辑与数据驱动控制相关工作。
+    header:
+      navbar:
+        button:
+          text: 下载中文简历
+          url: https://tianqin.netlify.app/uploads/cv-qin-tian-cn.pdf
+  menu:
+    main:
+      - name: 首页
+        url: /zh/
+        weight: 10
+      - name: 论文
+        url: /zh/publications/
+        weight: 20
+      - name: 项目
+        url: /zh/projects/
+        weight: 30
+      - name: 笔记
+        url: /zh/notes/
+        weight: 40
+      - name: 简历
+        url: /zh/cv/
+        weight: 50

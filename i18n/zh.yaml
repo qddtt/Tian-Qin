@@ -1,0 +1,14 @@
+- id: home
+  translation: 首页
+
+- id: close
+  translation: 关闭
+
+- id: experience
+  translation: 工作经历
+
+- id: theme_selector
+  translation: 显示偏好
+
+- id: btn_copied
+  translation: 已复制
