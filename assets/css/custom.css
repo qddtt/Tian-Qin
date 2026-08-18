@@ -217,6 +217,35 @@ body {
   max-width: 920px;
 }
 
+.notes-latest {
+  display: grid;
+  gap: 0.3rem;
+  margin: 1rem 0 0 !important;
+  padding-left: 1rem;
+  border-left: 3px solid var(--academic-blue);
+}
+
+.notes-latest span {
+  color: var(--academic-muted);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.notes-latest a {
+  color: var(--academic-ink);
+  font-weight: 650;
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+.notes-latest a:hover {
+  color: var(--academic-blue);
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+}
+
 .academic-lead {
   margin-top: 0 !important;
   color: #273449;
@@ -450,6 +479,79 @@ body {
   text-underline-offset: 0.18em;
 }
 
+.control-architecture {
+  display: grid;
+  gap: 1rem;
+  margin: 2rem 0;
+  padding: 1.15rem;
+  border: 1px solid var(--academic-line);
+  border-radius: 10px;
+  background: var(--academic-soft);
+}
+
+.control-architecture__lane {
+  margin: 0;
+  padding: 1rem;
+  border: 1px solid var(--academic-line);
+  border-radius: 8px;
+  background: var(--academic-surface);
+}
+
+.control-architecture__label {
+  margin: 0 0 0.85rem !important;
+  color: var(--academic-blue);
+  font-size: 0.8rem;
+  font-weight: 750;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.control-architecture__flow {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 1.35rem minmax(0, 1fr) 1.35rem minmax(0, 1fr) 1.35rem minmax(0, 1fr);
+  align-items: stretch;
+  gap: 0.35rem;
+}
+
+.control-architecture__node {
+  display: flex;
+  min-height: 4.75rem;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 0.6rem;
+  border: 1px solid var(--academic-line);
+  border-radius: 7px;
+  background: #f9fbfd;
+  color: #334155;
+  font-size: 0.8rem;
+  font-weight: 650;
+  line-height: 1.45;
+  text-align: center;
+}
+
+.control-architecture__node--accent {
+  border-color: rgba(29, 79, 145, 0.45);
+  background: rgba(29, 79, 145, 0.08);
+  color: var(--academic-blue);
+}
+
+.control-architecture__arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--academic-muted);
+  font-size: 1.1rem;
+}
+
+.control-architecture__fallback {
+  margin: 0.85rem 0 0 !important;
+  padding-top: 0.75rem;
+  border-top: 1px dashed var(--academic-line);
+  color: var(--academic-muted);
+  font-size: 0.82rem;
+  line-height: 1.55;
+}
+
 footer {
   border-top: 1px solid var(--academic-line);
   background: #fff;
@@ -546,6 +648,36 @@ footer .powered-by + .powered-by {
   .page-body article.prose > h1 {
     font-size: 2.1rem !important;
   }
+
+  .control-architecture {
+    padding: 0.75rem;
+  }
+
+  .control-architecture__lane {
+    padding: 0.8rem;
+  }
+
+  .control-architecture__flow {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.3rem;
+  }
+
+  .control-architecture__node {
+    min-height: auto;
+    padding: 0.75rem;
+  }
+
+  .control-architecture__arrow {
+    min-height: 1.15rem;
+    transform: rotate(90deg);
+  }
+}
+
+@media (max-width: 420px) {
+  .max-w-3xl .-inset-x-4 {
+    right: 0;
+    left: 0;
+  }
 }
 
 .dark body,
@@ -561,16 +693,35 @@ footer .powered-by + .powered-by {
 }
 
 .dark .research-thread article,
-.dark .project-item {
+.dark .project-item,
+.dark .control-architecture__lane {
   border-color: rgba(148, 163, 184, 0.28);
   background: #172033;
+}
+
+.dark .control-architecture {
+  border-color: rgba(148, 163, 184, 0.28);
+  background: #111827;
+}
+
+.dark .control-architecture__node {
+  border-color: rgba(148, 163, 184, 0.28);
+  background: #1e293b;
+  color: #cbd5e1;
+}
+
+.dark .control-architecture__node--accent {
+  border-color: rgba(96, 165, 250, 0.55);
+  background: rgba(30, 64, 175, 0.28);
+  color: #bfdbfe;
 }
 
 .dark #profile .bio-text,
 .dark .blox-markdown .prose,
 .dark .research-thread p,
 .dark .project-item p,
-.dark .publication-meta {
+.dark .publication-meta,
+.dark .control-architecture__fallback {
   color: #cbd5e1;
 }
 
@@ -582,6 +733,7 @@ footer .powered-by + .powered-by {
 .dark .blox-resume-awards .mb-6.text-3xl,
 .dark .research-thread h3,
 .dark .project-item h3,
+.dark .notes-latest a,
 .dark #section-resume-awards h5,
 .dark .prose h2,
 .dark .prose h3,

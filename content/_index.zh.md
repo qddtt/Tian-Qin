@@ -137,8 +137,9 @@ sections:
       title: 研究笔记
       text: |-
         <div class="notes-preview">
-          <p>这里收录的是我公开分享的一部分研究笔记，主要围绕从经典控制走向基于学习的自主系统，内容尽量保持简洁并面向真实应用。</p>
-          <p class="section-link"><a href="/zh/notes/">阅读研究笔记</a></p>
+          <p>我通过研究笔记，把模型驱动控制与学习控制中的问题整理为明确、可验证的研究设想。</p>
+          <p class="notes-latest"><span>最新研究构想</span><a href="/zh/notes/mpc-to-offline-learned-policies/">从 MPC 到强化学习与数据驱动控制：走向离线学习策略</a></p>
+          <p class="section-link"><a href="/zh/notes/">浏览研究笔记</a></p>
         </div>
     design:
       columns: '1'

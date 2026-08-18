@@ -137,8 +137,9 @@ sections:
       title: Research Notes
       text: |-
         <div class="notes-preview">
-          <p>I keep selected public notes on the transition from classical control to learning-based autonomy. The notes are intentionally concise and application-facing.</p>
-          <p class="section-link"><a href="/notes/">Read selected notes</a></p>
+          <p>I write research notes to turn questions about model-based and learning-enabled control into explicit, testable ideas.</p>
+          <p class="notes-latest"><span>Latest research concept</span><a href="/notes/mpc-to-offline-learned-policies/">From MPC to Reinforcement Learning and Data-Driven Control: Toward Offline-Learned Policies</a></p>
+          <p class="section-link"><a href="/notes/">Browse research notes</a></p>
         </div>
     design:
       columns: '1'
