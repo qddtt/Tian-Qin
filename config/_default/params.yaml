@@ -34,9 +34,7 @@ header:
     logo:
       text: 'Qin Tian'
     button:
-      enable: true
-      text: 'Download CV'
-      url: '/uploads/cv-qin-tian.pdf'
+      enable: false
 
 footer:
   copyright:

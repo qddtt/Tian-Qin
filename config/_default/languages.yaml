@@ -20,11 +20,6 @@ zh:
     marketing:
       seo:
         description: 秦天的个人网站，展示自动驾驶矿卡控制、MPC、LQR、自适应/模糊 PID、车辆动力学建模、参数辨识、AEB 安全逻辑与数据驱动控制相关工作。
-    header:
-      navbar:
-        button:
-          text: 下载中文简历
-          url: https://tianqin.netlify.app/uploads/cv-qin-tian-cn.pdf
   menu:
     main:
       - name: 首页
